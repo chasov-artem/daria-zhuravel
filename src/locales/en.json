@@ -1,6 +1,99 @@
 {
-  "heroTitle": "Laser hair removal specialist",
-  "heroSubtitle": "Smooth skin with professional and gentle care.",
   "bookNow": "Book now",
-  "languageLabel": "Language"
+  "languageLabel": "Language",
+  "studioName": "Studio Name",
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Electrolysis by [Name]",
+    "subtitle": "Expert hair removal with care"
+  },
+  "about": {
+    "title": "About Me",
+    "photoAlt": "Master portrait",
+    "description": "My name is Daria Zhuravel. I'm a certified electrologist and the founder of PulseBeauty Studio in Auckland, New Zealand.\n\nMy journey began in 2016, when I personally experienced electrolysis treatment as a client. That experience changed everything - I saw how powerful this method is and how much it can improve someone's self-confidence. I realized that I wanted to help others achieve the same: smooth skin and a sense of comfort in their own body.\n\nSoon after, I began my professional training. In 2018, I studied with top experts in Moscow, and in 2019, I advanced my qualifications in Dnipro, Ukraine. These experiences gave me strong knowledge and modern techniques.\n\nToday, I work in Auckland, offering high-quality, safe, and personalized electrolysis services for women and men of all skin and hair types. I use modern equipment and sterile single-use tools, always following strict hygiene protocols.\n\nI believe beauty is not about standards - it's about feeling comfortable and confident. And I'm here to help you reach that"
+  },
+  "certificates": {
+    "title": "Diplomas & Certificates",
+    "list": [
+      {
+        "name": "Advanced Electrolysis Certificate, 2024",
+        "image": "/cert1-placeholder.png"
+      },
+      {
+        "name": "CPR and First Aid Certified",
+        "image": "/cert2-placeholder.png"
+      },
+      {
+        "name": "Member of [Professional Association]",
+        "image": "/cert3-placeholder.png"
+      }
+    ]
+  },
+  "services": {
+    "title": "Services",
+    "list": [
+      {
+        "id": "face",
+        "name": "Electrolysis on the Face",
+        "description": "Facial electrolysis is one of the most effective and permanent methods of removing unwanted hair.\nThe duration of a session can vary from 15 to 60 minutes, depending on the treated area and hair density.\n\nA full course usually takes 1.5 to 2 years with regular appointments. This is due to the natural hair growth cycles - electrolysis targets each follicle individually, ensuring permanent results over time.\n\nBefore the Procedure\n• Hair length should be about 2-3 mm so the specialist can work precisely.\n• Avoid sun exposure, tanning beds, and aggressive cosmetic treatments (peels, scrubs) for at least 3-5 days before your session.\n• Do not pluck or wax hairs between appointments - shaving or trimming is allowed if necessary.\n\nAfter the Procedure\n• Mild redness or sensitivity is normal and usually subsides within a few hours.\n• Avoid overheating (saunas, gyms, hot baths) for 24-48 hours.\n• Use a gentle antiseptic and soothing cream recommended by your specialist.\n\nElectrolysis on the face is suitable for any hair color and skin type - it works where laser hair removal may be ineffective.",
+        "image": "/service-face-placeholder.png"
+      },
+      {
+        "id": "underarms",
+        "name": "Electrolysis for Underarms",
+        "description": "Electrolysis in the underarm area is a reliable way to permanently remove unwanted hair and forget about constant shaving or painful waxing.\n\nThe first session usually lasts 60-120 minutes.\nA full course takes about 1.5 to 2 years with regular visits, depending on natural hair growth cycles.\n\nBefore the Procedure\n• Hair length should be around 2-3 mm.\n• Avoid tanning, sunbeds, and aggressive skincare treatments a few days before your session.\n• Do not use deodorants or antiperspirants on the day of your appointment.\n\nAfter the Procedure\n• Mild redness or sensitivity may occur but usually disappears within a few hours.\n• Avoid heat exposure (sauna, gym, hot baths) for 24-48 hours.\n• For 1-2 days, apply a gentle antiseptic and soothing cream recommended by your specialist.\n\nElectrolysis for underarms ensures perfectly smooth skin forever and is effective for any hair type or color.",
+        "image": "/service-underarms-placeholder.png"
+      },
+      {
+        "id": "legs",
+        "name": "Electrolysis for Legs",
+        "description": "Electrolysis on the legs is a permanent solution to unwanted hair, allowing you to enjoy smooth skin without shaving or waxing.\n\nThe first session may last 2 to 4 hours (depending on whether you choose lower legs or full legs).\nA full course takes approximately 1.5-2 years with regular visits, as it works through the natural hair growth cycles.\n\nBefore the Procedure\n• Hair length should be about 2-3 mm.\n• Avoid sunburn, tanning beds, and aggressive cosmetic treatments for several days before your session.\n• Do not pluck or wax hairs between treatments (only shaving or trimming is allowed).\n\nAfter the Procedure\n• Mild redness or sensitivity may appear but usually fades within a few hours.\n• Avoid heavy workouts, hot baths, or saunas for 24-48 hours.\n• For the first days, use a gentle antiseptic and soothing cream as recommended by your specialist.\n\nElectrolysis for legs is suitable for all hair colors and skin types, guaranteeing permanently smooth skin.",
+        "image": "/service-legs-placeholder.png"
+      },
+      {
+        "id": "bikini",
+        "name": "Electrolysis for Bikini Area",
+        "description": "Electrolysis in the bikini area is an effective and safe method for permanent hair removal. The procedure helps eliminate irritation from shaving or painful waxing, leaving the skin perfectly smooth.\n\nThe first session lasts from 1 to 7 hours, depending on the chosen area.\nA full course takes approximately 1.5-2 years with regular visits to the specialist.\n\nTypes of Bikini Electrolysis\n• Classic Bikini - hair removal along the underwear line.\n• Deep Bikini - removal of hair along the sides and partially inside the intimate area.\n• Full (Total) Bikini - complete removal of hair in the entire intimate zone.\n\nBefore the Procedure\n• Hair length should be around 2-3 mm.\n• Avoid tanning, sunburn, and aggressive skin treatments for several days before your session.\n• Do not apply creams or oils on the day of the procedure.\n\nAfter the Procedure\n• Mild redness or skin sensitivity is normal and usually disappears within a few hours.\n• Avoid pools, hot baths, exercise, and tight synthetic underwear for 24-48 hours.\n• Use a gentle antiseptic and soothing cream as recommended by your specialist.\n\nElectrolysis for the bikini area is suitable for all hair types and guarantees long-lasting comfort and confidence.",
+        "image": "/service-bikini-placeholder.png"
+      }
+    ]
+  },
+  "aftercare": {
+    "title": "Aftercare Tips",
+    "description": "To ensure the best results and skin comfort after your electrolysis session:\n\n• Avoid sun exposure for 24-48 hours.\n• Do not touch or scratch the treated area.\n• Apply soothing cream as recommended.\n• Avoid hot showers, saunas, and intense workouts for 24 hours.\n• Use gentle, fragrance-free skincare products."
+  },
+  "social": {
+    "title": "Follow Me"
+  },
+  "seo": {
+    "homeTitle": "Electrolysis Studio | Permanent Hair Removal",
+    "homeDescription": "Certified electrolysis specialist. Safe and personalized permanent hair removal services for face, underarms, legs, and bikini area.",
+    "privacyTitle": "Privacy Policy | Electrolysis Studio",
+    "privacyDescription": "Privacy policy for visitors and clients of the electrolysis studio website.",
+    "termsTitle": "Terms of Use | Electrolysis Studio",
+    "termsDescription": "Terms of use for the electrolysis studio website and booking flow."
+  },
+  "legal": {
+    "disclaimer": "This page is a draft and should be reviewed with the studio owner and legal advisor before publishing.",
+    "privacy": {
+      "title": "Privacy Policy",
+      "updatedAt": "Last updated: February 2026",
+      "intro": "We collect only the information needed to process bookings and communicate with clients. We do not sell personal data to third parties."
+    },
+    "terms": {
+      "title": "Terms of Use",
+      "updatedAt": "Last updated: February 2026",
+      "intro": "By using this website and booking services, you agree to our service terms, cancellation policy, and communication rules."
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 Studio Name. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use"
+  }
 }

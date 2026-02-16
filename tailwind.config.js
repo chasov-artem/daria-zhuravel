@@ -4,8 +4,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        beige: '#f4ede2',
-        softBrown: '#9d7b5f',
+        beige: '#F5F0E8',
+        softBrown: '#A67B5B',
         white: '#ffffff',
       },
       boxShadow: {
