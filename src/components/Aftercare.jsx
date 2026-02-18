@@ -1,5 +1,6 @@
 import SocialLinks from './SocialLinks'
 import { useLanguage } from '../context/useLanguage'
+import FaqSection from './FaqSection'
 
 function Aftercare() {
   const { t, language } = useLanguage()
@@ -21,7 +22,7 @@ function Aftercare() {
   return (
     <section className="my-16 bg-beige">
       <div className="mx-auto max-w-6xl px-4 md:px-6">
-        <h2 className="mb-6 text-2xl font-semibold md:mb-8 md:text-3xl">{t('aftercare.title')}</h2>
+        <h2 className="mb-6 text-center text-2xl font-semibold md:mb-8 md:text-3xl">{t('aftercare.title')}</h2>
 
         <div className="space-y-6">
           <article className="rounded-cardLg bg-white p-6 shadow-card md:p-8">
@@ -68,6 +69,8 @@ function Aftercare() {
               />
             </div>
           </article>
+
+          <FaqSection />
 
           <article className="rounded-cardLg bg-white p-6 shadow-card md:p-8">
             <h3 className="mb-4 text-xl font-semibold text-[#3E2E23]">{t('social.title')}</h3>

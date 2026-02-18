@@ -23,7 +23,7 @@ function About() {
         </div>
 
         <div className="rounded-cardLg bg-white p-8 shadow-card md:p-10">
-          <h2 className="mb-5 text-2xl font-semibold md:text-3xl">
+          <h2 className="mb-5 text-center text-2xl font-semibold md:text-3xl">
             {t("about.title")}
           </h2>
 

@@ -15,7 +15,7 @@ function Services() {
   return (
     <section className="my-16 bg-beige">
       <div className="mx-auto max-w-6xl px-4 md:px-6">
-        <h2 className="mb-6 text-2xl font-semibold md:mb-8 md:text-3xl">
+        <h2 className="mb-6 text-center text-2xl font-semibold md:mb-8 md:text-3xl">
           {t("services.title")}
         </h2>
 

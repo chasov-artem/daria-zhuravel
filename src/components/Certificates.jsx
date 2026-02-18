@@ -48,7 +48,7 @@ function Certificates() {
   return (
     <section className="bg-beige">
       <div className="mx-auto max-w-6xl px-4 pb-10 md:px-6 md:pb-14">
-        <h3 className="mb-5 text-xl font-semibold md:text-2xl">{t('certificates.title')}</h3>
+        <h3 className="mb-5 text-center text-xl font-semibold md:text-2xl">{t('certificates.title')}</h3>
 
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-4">
           {Array.isArray(certificateItems) &&

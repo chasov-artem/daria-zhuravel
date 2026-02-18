@@ -2,6 +2,39 @@ import { createElement } from 'react'
 import { FaFacebookF, FaInstagram, FaTelegramPlane } from 'react-icons/fa'
 import { socialLinks } from '../config/socialLinks'
 
+function getEmailHref(email) {
+  if (typeof email !== 'string') return ''
+  const value = email.trim()
+  if (!value) return ''
+  if (value.toLowerCase().startsWith('mailto:')) return value
+  return `mailto:${value}`
+}
+
+function getGmailComposeHref(email) {
+  if (typeof email !== 'string') return ''
+  const value = email.trim().replace(/^mailto:/i, '')
+  if (!value) return ''
+  return `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(value)}`
+}
+
+function handleEmailClick(event, email) {
+  const mailtoHref = getEmailHref(email)
+  const gmailHref = getGmailComposeHref(email)
+
+  if (!mailtoHref && !gmailHref) return
+
+  event.preventDefault()
+
+  if (gmailHref) {
+    const openedWindow = window.open(gmailHref, '_blank', 'noopener,noreferrer')
+    if (openedWindow) return
+  }
+
+  if (mailtoHref) {
+    window.location.href = mailtoHref
+  }
+}
+
 function EmailIcon({ className }) {
   return (
     <svg viewBox="0 0 24 24" fill="none" className={className} aria-hidden="true">
@@ -44,7 +77,8 @@ const SOCIAL_LINKS = [
   },
   {
     id: 'email',
-    href: socialLinks.email ? `mailto:${socialLinks.email}` : '',
+    href: getGmailComposeHref(socialLinks.email) || getEmailHref(socialLinks.email),
+    emailValue: socialLinks.email,
     label: 'Email',
     Icon: EmailIcon,
   },
@@ -55,12 +89,13 @@ function SocialLinks({ className = '', iconClassName = 'h-8 w-8', linkClassName 
 
   return (
     <div className={`flex items-center gap-3 ${className}`.trim()}>
-      {linksToRender.map(({ id, href, label, Icon }) => (
+      {linksToRender.map(({ id, href, emailValue, label, Icon }) => (
         <a
           key={id}
           href={href}
-          target={id === 'email' ? undefined : '_blank'}
-          rel={id === 'email' ? undefined : 'noreferrer'}
+          target="_blank"
+          rel="noreferrer"
+          onClick={id === 'email' ? (event) => handleEmailClick(event, emailValue) : undefined}
           aria-label={label}
           className={`inline-flex items-center justify-center text-softBrown transition hover:scale-105 hover:text-[#8C6447] ${linkClassName}`.trim()}
         >

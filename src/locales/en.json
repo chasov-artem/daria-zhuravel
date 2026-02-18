@@ -90,6 +90,70 @@
     "title": "Aftercare Tips",
     "description": "To ensure the best results and skin comfort after your electrolysis session:\n\n• Avoid sun exposure for 24-48 hours.\n• Do not touch or scratch the treated area.\n• Apply soothing cream as recommended.\n• Avoid hot showers, saunas, and intense workouts for 24 hours.\n• Use gentle, fragrance-free skincare products."
   },
+  "faq": {
+    "title": "Most Popular FAQ's",
+    "pageTitle": "FAQ",
+    "backButton": "Back",
+    "button": "Read More >",
+    "items": [
+      {
+        "question": "Who is electrolysis for?",
+        "answer": "It can be used on most people including men and women who want body hair removed for cosmetic reasons, women who are suffering from hirsuitism (excess hair in a male pattern), which can be caused by the menopause, conditions such as polycystic ovary syndrome or steroid use, and clients who are undergoing gender reassignment from male to female."
+      },
+      {
+        "question": "Who can't have electrolysis?",
+        "answer": "Conditions that may prevent treatment include: haemophilia, heart disorders, pacemakers, cochlear implant, contagious diseases and disorders, Hepatitis B, HIV, cancer or epilepsy.\n\nConditions that may restrict treatment: steroid drugs, endocrine disorders, metal plates and pins, cardiovascular disorders, loss of tactile sensation in localised areas, skin disorders and diseases, nickel allergy, hairy moles, pregnancy, drugs/alcohol, cuts/abrasions/bruising, emotional problems, dermagraphic skin condition, microdermabrasion or dermabrasion, chemical peels, latex allergy (wear vinyl gloves), certain medications or creams, breast implants (contra-indication to underarm treatment), epilepsy, diabetes, psoriasis, eczema, acne, dermabrasion on the areas to be treated."
+      },
+      {
+        "question": "How many treatments are needed?",
+        "answer": "For optimal results, several treatments and after-care advice are usually offered over a period of weeks to several months or longer."
+      }
+    ]
+  },
+  "faqPage": {
+    "items": [
+      {
+        "question": "How does electrolysis work?",
+        "answer": "The procedure involves inserting a very fine, disposable, sterile probe (the same diameter as the hair) into the hair follicle, which is a natural opening in the skin. The current is then skilfully discharged into the hair follicle. The client's only sensation is heat passing down the probe to the base of the follicle.\n\nThe follicles are destroyed using either heat (thermolysis) or a chemical reaction (galvanic), or both combined (with the blend). The treatment can be tailored to each client's skin, hair, and pain tolerance.\n\nDuring a course of treatments, there will be a constant, gradual decrease in hair growth until it is completely removed. The number of treatments required will vary depending on the individual and is discussed during the initial consultation.\n\nAny part of the body can be treated with electrolysis. The first sign that electrolysis is working is that the hair grows softer, finer, and lighter in colour."
+      },
+      {
+        "question": "What's the difference between electrolysis and laser?",
+        "answer": "Electrolysis uses a very fine, disposable, sterile probe to permanently destroy each hair follicle's ability to reproduce, resulting in complete permanent removal after a course of treatment.\n\nLaser and IPL usually provide permanent hair reduction rather than full permanent removal in a treated area. They can be helpful for some people but are often less suitable for certain hair colours, skin tones, and medication profiles.\n\nElectrolysis may take longer overall, but it is used when permanent removal of all treated hair is the goal."
+      },
+      {
+        "question": "How many treatments do I need?",
+        "answer": "The number of treatments varies by client because hair density, growth cycles, hair thickness, skin sensitivity, and treatment area all differ.\n\nMost areas require regular appointments over an extended period, often at least a year or more. Session lengths can range from around 30 minutes to several hours depending on the area being treated.\n\nYou'll usually notice progressive improvement throughout the treatment plan rather than only at the end."
+      },
+      {
+        "question": "Does electrolysis hurt?",
+        "answer": "Electrolysis is not completely painless, but sensation is typically manageable. Most clients describe it as brief heat, a pinprick, or a mild sting when current is applied.\n\nSensitivity can vary by area; for example, the upper lip is often more sensitive.\n\nTreatment settings can be adjusted to suit individual comfort and tolerance."
+      },
+      {
+        "question": "Which areas can be treated by electrolysis?",
+        "answer": "Apart from the inner ear, virtually any area can be treated.\n\nCommon facial areas include upper lip, chin, neck, cheeks, brows, between brows, nose, and hairline. Body areas often include chest, nipples, abdomen, underarms, arms, shoulders, bikini line, buttocks, fingers, and toes.\n\nElectrolysis can be used across all skin colours and hair types."
+      },
+      {
+        "question": "Can I have electrolysis if I'm pregnant?",
+        "answer": "Pregnancy is not usually a contraindication to thermolysis/shortwave diathermy electrolysis.\n\nHowever, treatment of breast and abdominal areas is usually avoided in later stages due to skin sensitivity and stretching.\n\nBlend/galvanic approaches are often avoided during pregnancy. If unsure which method is being used, discuss this with your practitioner and healthcare provider."
+      },
+      {
+        "question": "I want electrolysis but I can't bear the thought of letting the hair grow between appointments. What can I do?",
+        "answer": "Between appointments, hair can still be managed by cutting or shaving, including facial areas.\n\nHair generally does not need to be very long for treatment, so your practitioner can guide you on suitable length before each session."
+      },
+      {
+        "question": "What does the skin look like following treatment?",
+        "answer": "Immediately after treatment there is often temporary redness and localized swelling, depending on skin sensitivity.\n\nBy the next day, most people see only minor signs. Some may notice tiny reddish-brown pinprick scabs, especially where hairs are distorted or ingrown. These typically heal and shed naturally over days to about a week."
+      },
+      {
+        "question": "Why shouldn't I wax, tweeze, thread, or epilate during treatment?",
+        "answer": "Electrolysis is recognized as a permanent hair-removal method.\n\nMethods that remove hair from the root (waxing, tweezing, threading, epilating) can interfere with treatment consistency and may stimulate stronger regrowth over time in some cases.\n\nIf you need interim management, shaving/cutting is usually preferred because these methods do not remove the root."
+      },
+      {
+        "question": "Is there a good time to start electrolysis treatment?",
+        "answer": "It is best to start when you can maintain regular appointments.\n\nAvoid beginning right before long travel, very busy periods, or major events if those would interrupt the treatment schedule.\n\nYou should still see progressive reduction during the course, which helps keep motivation high."
+      }
+    ]
+  },
   "social": {
     "title": "Follow Me"
   },
@@ -102,6 +166,8 @@
   "seo": {
     "homeTitle": "Electrolysis Studio | Permanent Hair Removal",
     "homeDescription": "Certified electrolysis specialist. Safe and personalized permanent hair removal services for face, underarms, legs, and bikini area.",
+    "faqTitle": "FAQ | Electrolysis Studio",
+    "faqDescription": "Frequently asked questions about electrolysis treatment, suitability, aftercare, and expected results.",
     "privacyTitle": "Privacy Policy | Electrolysis Studio",
     "privacyDescription": "Privacy policy for visitors and clients of the electrolysis studio website.",
     "termsTitle": "Terms of Use | Electrolysis Studio",
