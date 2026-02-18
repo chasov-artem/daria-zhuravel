@@ -12,6 +12,11 @@
     "title": "Electrolysis by Daria Zhuravel",
     "subtitle": "Expert hair removal with care"
   },
+  "electrolysisInfo": {
+    "title": "What Is Electrolysis",
+    "paragraphOne": "Electrolysis is a hair removal treatment. A trained electrologist inserts a thin wire into the hair follicle under the surface of the skin. An electric current moves down the wire to the bottom of the follicle, destroying the hair root. The follicle damage prevents hair from growing and causes the existing hair to fall out.",
+    "paragraphTwo": "Electrolysis has been around for more than 100 years. It was first invented to remove irritating ingrown eyelash hairs. Electrolysis is the only FDA-approved method for permanent hair removal."
+  },
   "about": {
     "title": "About Me",
     "photoAlt": "Master portrait",
@@ -88,6 +93,12 @@
   "social": {
     "title": "Follow Me"
   },
+  "location": {
+    "title": "How to Find Us",
+    "addressLineOne": "5 Carole Crescent",
+    "addressLineTwo": "Pakuranga, Auckland 2010",
+    "mapTitle": "Map to PulseBeauty Studio"
+  },
   "seo": {
     "homeTitle": "Electrolysis Studio | Permanent Hair Removal",
     "homeDescription": "Certified electrolysis specialist. Safe and personalized permanent hair removal services for face, underarms, legs, and bikini area.",
@@ -110,7 +121,7 @@
     }
   },
   "footer": {
-    "copyright": "© 2026 Studio Name. All rights reserved.",
+    "copyright": "© 2026. All rights reserved.",
     "privacy": "Privacy Policy",
     "terms": "Terms of Use"
   }
