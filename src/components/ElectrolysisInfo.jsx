@@ -10,7 +10,7 @@ function ElectrolysisInfo() {
   const { t } = useLanguage();
 
   return (
-    <section className="bg-beige pb-12 md:pb-16">
+    <section id="electrolysis" className="bg-beige pb-12 md:pb-16 scroll-mt-28">
       <div className="mx-auto max-w-6xl px-4 md:px-6">
         <MotionArticle
           className="border-b border-softBrown/20 pb-12 pt-6 md:pb-16 md:pt-8"
@@ -19,7 +19,9 @@ function ElectrolysisInfo() {
           viewport={{ once: true, amount: 0.25 }}
           variants={{
             hidden: {},
-            show: { transition: { staggerChildren: 0.16, delayChildren: 0.06 } },
+            show: {
+              transition: { staggerChildren: 0.16, delayChildren: 0.06 },
+            },
           }}
         >
           <MotionH2

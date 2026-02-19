@@ -4,8 +4,12 @@
   "studioName": "Название студии",
   "nav": {
     "home": "Главная",
+    "electrolysis": "Электроэпиляция",
     "services": "Услуги",
+    "aftercare": "Уход",
     "about": "Обо мне",
+    "certificates": "Сертификаты",
+    "faq": "FAQ",
     "contact": "Контакты"
   },
   "hero": {

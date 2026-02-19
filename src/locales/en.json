@@ -4,8 +4,12 @@
   "studioName": "Studio Name",
   "nav": {
     "home": "Home",
+    "electrolysis": "Electrolysis",
     "services": "Services",
+    "aftercare": "Care",
     "about": "About",
+    "certificates": "Certificates",
+    "faq": "FAQ",
     "contact": "Contact"
   },
   "hero": {
@@ -89,7 +93,7 @@
     ]
   },
   "aftercare": {
-    "title": "Aftercare Tips",
+    "title": "Care Tips",
     "description": "To ensure the best results and skin comfort after your electrolysis session:\n\n• Avoid sun exposure for 24-48 hours.\n• Do not touch or scratch the treated area.\n• Apply soothing cream as recommended.\n• Avoid hot showers, saunas, and intense workouts for 24 hours.\n• Use gentle, fragrance-free skincare products."
   },
   "faq": {

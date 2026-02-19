@@ -17,7 +17,7 @@ function About() {
       : [];
 
   return (
-    <section className="bg-beige">
+    <section id="about" className="bg-beige scroll-mt-28">
       <div className="mx-auto grid max-w-6xl grid-cols-1 gap-8 px-4 py-8 md:grid-cols-2 md:gap-10 md:px-6 md:py-0">
         <MotionDiv
           className="flex items-center justify-center"
@@ -42,7 +42,9 @@ function About() {
           viewport={{ once: true, amount: 0.25 }}
           variants={{
             hidden: {},
-            show: { transition: { staggerChildren: 0.12, delayChildren: 0.05 } },
+            show: {
+              transition: { staggerChildren: 0.12, delayChildren: 0.05 },
+            },
           }}
         >
           <MotionH2

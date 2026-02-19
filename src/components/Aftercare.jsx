@@ -40,13 +40,13 @@ function Aftercare() {
   const reviews = t("reviews.items");
 
   return (
-    <section className="my-16 bg-beige">
+    <section id="aftercare" className="my-16 bg-beige scroll-mt-28">
       <div className="mx-auto max-w-6xl px-4 md:px-6">
         <MotionH2
           className="mb-6 text-center text-2xl font-semibold md:mb-8 md:text-3xl"
           initial={{ opacity: 0, y: 10 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, amount: 0.4 }}
+          viewport={{ once: true, amount: 0.15 }}
           transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
         >
           {t("aftercare.title")}
@@ -57,10 +57,12 @@ function Aftercare() {
             className="border-b border-softBrown/20 pb-8 pt-6 md:pb-10 md:pt-8"
             initial="hidden"
             whileInView="show"
-            viewport={{ once: true, amount: 0.25 }}
+            viewport={{ once: true, amount: 0.12 }}
             variants={{
               hidden: {},
-              show: { transition: { staggerChildren: 0.1, delayChildren: 0.05 } },
+              show: {
+                transition: { staggerChildren: 0.1, delayChildren: 0.05 },
+              },
             }}
           >
             {lead && (
@@ -153,7 +155,10 @@ function Aftercare() {
           <Certificates />
 
           {Array.isArray(reviews) && reviews.length > 0 && (
-            <article className="relative left-1/2 right-1/2 -mx-[50vw] w-screen overflow-hidden border-b border-softBrown/20 bg-[#f7f6f4]/80 py-8 md:py-12">
+            <article
+              id="reviews"
+              className="relative left-1/2 right-1/2 -mx-[50vw] w-screen overflow-hidden border-b border-softBrown/20 bg-[#f7f6f4]/80 py-8 scroll-mt-28 md:py-12"
+            >
               <div className="mx-auto max-w-6xl px-4 md:px-6">
                 <h3 className="testimonials-title mb-8 text-center text-[#574c44] md:mb-10">
                   <span className="testimonials-title-dot" aria-hidden="true" />
@@ -208,7 +213,10 @@ function Aftercare() {
             </article>
           )}
 
-          <article className="border-b border-softBrown/20 pb-8 pt-6 md:pt-8 md:pb-10">
+          <article
+            id="location"
+            className="border-b border-softBrown/20 pb-8 pt-6 scroll-mt-28 md:pb-10 md:pt-8"
+          >
             <h3 className="mb-4 text-xl font-semibold text-[#3E2E23]">
               {t("location.title")}
             </h3>
@@ -231,7 +239,7 @@ function Aftercare() {
 
           <FaqSection />
 
-          <article>
+          <article id="contact" className="scroll-mt-28">
             <h3 className="mb-4 text-xl font-semibold text-[#3E2E23]">
               {t("social.title")}
             </h3>

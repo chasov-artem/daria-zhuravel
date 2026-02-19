@@ -13,7 +13,7 @@ function FaqSection() {
   };
 
   return (
-    <article className="border-b border-softBrown/20 p-6 md:p-8">
+    <article id="faq" className="border-b border-softBrown/20 p-6 scroll-mt-28 md:p-8">
       <div className="flex items-center gap-4">
         <span aria-hidden="true" className="h-px flex-1 bg-softBrown/35" />
         <h3 className="text-center text-xl font-semibold uppercase tracking-wide text-[#6b4f61] md:text-3xl">
@@ -56,10 +56,7 @@ function FaqSection() {
       </div>
 
       <div className="mt-8 flex justify-center">
-        <Link
-          to={`/${language}/faq`}
-          className="cta-unified"
-        >
+        <Link to={`/${language}/faq`} className="cta-unified">
           {t("faq.button")}
         </Link>
       </div>

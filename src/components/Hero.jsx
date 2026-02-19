@@ -17,7 +17,9 @@ function Hero() {
   const titleLineOne = t("hero.titleLineOne");
   const titleLineTwo = t("hero.titleLineTwo");
   const subtitle = t("hero.subtitle");
-  const visibleSubtitle = subtitle.startsWith(typedSubtitle) ? typedSubtitle : "";
+  const visibleSubtitle = subtitle.startsWith(typedSubtitle)
+    ? typedSubtitle
+    : "";
 
   useEffect(() => {
     if (!subtitle || typeof subtitle !== "string") {
@@ -39,10 +41,11 @@ function Hero() {
 
   return (
     <MotionSection
+      id="home"
       initial={{ opacity: 0, y: 12 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.85, ease: [0.22, 1, 0.36, 1] }}
-      className="relative overflow-hidden bg-cover bg-center"
+      className="relative overflow-hidden bg-cover bg-center scroll-mt-28"
       style={{ backgroundImage: "url('/hero.webp')" }}
       aria-label="Electrolysis specialist portrait"
       role="img"

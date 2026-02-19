@@ -14,7 +14,7 @@ function Services() {
   const serviceItems = t("services.list");
 
   return (
-    <section className="my-16 bg-beige">
+    <section id="services" className="my-16 bg-beige scroll-mt-28">
       <div className="mx-auto max-w-6xl px-4 md:px-6">
         <h2 className="mb-6 text-center text-2xl font-semibold md:mb-8 md:text-3xl">
           {t("services.title")}
