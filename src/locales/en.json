@@ -157,6 +157,79 @@
   "social": {
     "title": "Follow Me"
   },
+  "reviews": {
+    "title": "Client Reviews",
+    "items": [
+      {
+        "name": "Nina Kotova",
+        "comment": "Dasha is an excellent specialist! Attentive, a true professional, and always focused on results."
+      },
+      {
+        "name": "polina_urvacheva",
+        "comment": "My beauties!!!!!)))) Such an amazing feeling when the hair doesn't grow back😍 you even feel different!)))"
+      },
+      {
+        "name": "e_arina",
+        "comment": "Thank you, Daria, for successfully saving my underarms))))))🤗🤗🤗🤗 Soon, very soon they will be completely free from unwanted hair)))))))) And jokes aside, Daria is amazing! She's a lovely girl and very dedicated to her work. My skin after the procedure is perfect, not even any blood spots left. Thank you!!! See you in a month 😜😜😜"
+      },
+      {
+        "name": "valentina_343tny",
+        "comment": "A fantastic result, and it's great that medicine keeps moving forward) I fully support those who thought it through and decided on electrolysis))) Believe me, it's worth it! Electrolysis is the only way to get rid of unwanted hair forever! I'd rather wait 2 (maybe even 3) years than spend my whole life doing regular hair removal!))"
+      },
+      {
+        "name": "polina_urvacheva",
+        "comment": "Thank you, Daria! I'm very happy with your work! I really like it!)))"
+      },
+      {
+        "name": "Anonymous client",
+        "comment": "Electrolysis appointment with Daria today. I find Daria friendly, gentle, and efficient. I am very happy with the results and recommend her to anyone looking for permanent hair removal. I should have done this years ago."
+      },
+      {
+        "name": "Viktoria Leshchina",
+        "comment": "Daria is a wonderful, responsible, and very attentive specialist. I highly recommend her! 👍👍"
+      },
+      {
+        "name": "tamila_brovki",
+        "comment": "Since I have something to compare with, I can say one thing: Dashulya, you're an excellent specialist. Even with just six months of experience, you're very attentive, careful, and not slow at all, which makes me very happy. No burns, only tiny little spots that leave no marks))) And that's very important. 🥹 Thank you so much 😘😘😘"
+      },
+      {
+        "name": "Maria Golenko",
+        "comment": "I'm taking an electrolysis course - still in progress, but the result is already very visible! Very little hair is left, the skin is smooth, and there is no irritation. Very happy."
+      },
+      {
+        "name": "tamila_brovki",
+        "comment": "😆😆 Yes, I remember that I remember nothing, I was sleeping))) So now I'm removing the leg area and a couple more hairs on my face. I'm the happiest 😁"
+      },
+      {
+        "name": "polina_urvacheva",
+        "comment": "My, my underarms!!!!! Excellent work, and most importantly I'm thrilled that I don't need to shave my underarms every couple of days!!!!!!!! Plus, they sweat much less 😂😂😂 and as a result there is no sweat smell."
+      },
+      {
+        "name": "evgenya.moscow.mom",
+        "comment": "Electrolysis has truly been my lifesaver. I was always bothered by hairs above my upper lip and felt very insecure, constantly plucking them. Now, thanks to Daria and her professional work, I got rid of this problem completely. And by the way, I completed the course a long time ago! Thank you so much 🙏"
+      },
+      {
+        "name": "olesyaelsinor2017",
+        "comment": "A very necessary procedure. Thank you to the wonderful specialist, Daria, for her precision and attentiveness in her work."
+      },
+      {
+        "name": "Anonymous client",
+        "comment": "Dashenka, I wish you prosperity and many great clients!! I was happy to be in your kind hands!! 😘"
+      },
+      {
+        "name": "Armando",
+        "comment": "Daria is very professional, efficient, and does great work. I recommend her to everyone because she is very thorough."
+      },
+      {
+        "name": "Alena Chistyakova",
+        "comment": "I would like to recommend Daria and her approach to electrolysis! For me personally, discomfort is minimal, and after the procedure there is almost no redness or irritation. I have something to compare with: recently in Moscow I had 2 procedures with 'top masters', and it was more painful, with redness lasting for several days. Daria is definitely a true specialist, attentive, and very easy to trust. I sincerely recommend her! 😊"
+      },
+      {
+        "name": "Jane Buriakova",
+        "comment": "How great it is that we have professionals like Daria here in Auckland! I have something to compare with (I visited several specialists in Moscow, and also local ones here), and specialists like Daria are rare! Everything is very fast and high quality. I always recommend her to my friends, and electrolysis in general - it's the most effective and the only method that removes hair permanently."
+      }
+    ]
+  },
   "location": {
     "title": "How to Find Us",
     "addressLineOne": "5 Carole Crescent",
@@ -174,16 +247,131 @@
     "termsDescription": "Terms of use for the electrolysis studio website and booking flow."
   },
   "legal": {
-    "disclaimer": "This page is a draft and should be reviewed with the studio owner and legal advisor before publishing.",
+    "disclaimer": "This page is based on publicly available information and should be reviewed with the studio owner and legal advisor before publishing.",
     "privacy": {
       "title": "Privacy Policy",
       "updatedAt": "Last updated: February 2026",
-      "intro": "We collect only the information needed to process bookings and communicate with clients. We do not sell personal data to third parties."
+      "intro": "At PulseBeauty Studio, we respect your privacy and process personal information only to operate our website, handle bookings, and provide treatments safely.",
+      "sections": [
+        {
+          "heading": "Information We Collect",
+          "bullets": [
+            "Contact details you provide when you contact us or book (name, phone, email).",
+            "Booking and service information (selected treatment, preferred date/time, notes).",
+            "Basic health-related information you choose to share in consultation forms when needed for treatment suitability and safety.",
+            "Technical data from website usage such as browser type, pages visited, and general analytics."
+          ]
+        },
+        {
+          "heading": "Why We Use Your Information",
+          "bullets": [
+            "To respond to enquiries and manage appointments.",
+            "To confirm treatment suitability, including contraindications and aftercare guidance.",
+            "To provide and improve studio services, website content, and customer support.",
+            "To meet legal, safety, and record-keeping obligations."
+          ]
+        },
+        {
+          "heading": "Sharing of Information",
+          "paragraphs": [
+            "We do not sell personal data. Information may be shared only with trusted service providers required to run the website, booking, communication, or payment processes, and only to the extent necessary."
+          ]
+        },
+        {
+          "heading": "Storage and Security",
+          "paragraphs": [
+            "We take reasonable technical and organisational measures to protect your data against unauthorised access, misuse, or loss. We keep information only for as long as it is required for service delivery, safety records, legal obligations, and dispute resolution."
+          ]
+        },
+        {
+          "heading": "Your Rights",
+          "bullets": [
+            "Request access to personal information we hold about you.",
+            "Request correction of inaccurate or outdated information.",
+            "Request deletion where legally permitted.",
+            "Withdraw consent to optional communications at any time."
+          ]
+        },
+        {
+          "heading": "Third-Party Links and Platforms",
+          "paragraphs": [
+            "Our website may contain links to external platforms (for example social media or booking-related tools). Their privacy practices are governed by their own policies."
+          ]
+        },
+        {
+          "heading": "Updates to This Policy",
+          "paragraphs": [
+            "We may update this policy from time to time. The latest version will always be published on this page with the updated date."
+          ]
+        }
+      ],
+      "contact": "For privacy requests or questions, contact us via the website contact channels listed in the footer (phone, email, or social links)."
     },
     "terms": {
       "title": "Terms of Use",
       "updatedAt": "Last updated: February 2026",
-      "intro": "By using this website and booking services, you agree to our service terms, cancellation policy, and communication rules."
+      "intro": "By using this website and booking services at PulseBeauty Studio, you agree to these Terms of Use.",
+      "sections": [
+        {
+          "heading": "Website Purpose",
+          "paragraphs": [
+            "This website provides information about studio services, pricing, FAQs, contact options, and booking-related links."
+          ]
+        },
+        {
+          "heading": "Bookings and Consultations",
+          "bullets": [
+            "Appointments are subject to availability and confirmation by the studio.",
+            "You are responsible for providing accurate contact and consultation information.",
+            "For some services, treatment suitability depends on your medical history, contraindications, and practitioner assessment."
+          ]
+        },
+        {
+          "heading": "Treatment Information Disclaimer",
+          "paragraphs": [
+            "Service descriptions and FAQs are informational and do not replace professional medical advice. Individual results and number of sessions vary."
+          ]
+        },
+        {
+          "heading": "Pricing and Payments",
+          "bullets": [
+            "Prices, offers, and packages (including prepaid options) may change at any time.",
+            "Any applicable payment, cancellation, and rescheduling conditions are communicated during booking or purchase."
+          ]
+        },
+        {
+          "heading": "Acceptable Use",
+          "bullets": [
+            "Do not use the website for unlawful activity or to interfere with website functionality.",
+            "Do not copy, scrape, or redistribute website content in violation of applicable law."
+          ]
+        },
+        {
+          "heading": "Intellectual Property",
+          "paragraphs": [
+            "Website text, branding, visuals, and other materials are owned by or licensed to the studio unless stated otherwise."
+          ]
+        },
+        {
+          "heading": "External Services",
+          "paragraphs": [
+            "The website may include links to third-party platforms and tools. We are not responsible for third-party availability, content, or policies."
+          ]
+        },
+        {
+          "heading": "Limitation of Liability",
+          "paragraphs": [
+            "To the extent permitted by law, the studio is not liable for indirect or consequential losses arising from use of the website or inability to access it."
+          ]
+        },
+        {
+          "heading": "Changes to Terms",
+          "paragraphs": [
+            "We may update these Terms of Use periodically. Continued use of the website after updates means you accept the revised terms."
+          ]
+        }
+      ],
+      "contact": "If you have questions about these terms, contact the studio using the contact details listed on this website."
     }
   },
   "footer": {

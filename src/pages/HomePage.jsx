@@ -1,8 +1,6 @@
 import Hero from '../components/Hero'
 import ElectrolysisInfo from '../components/ElectrolysisInfo'
 import Layout from '../components/Layout'
-import About from '../components/About'
-import Certificates from '../components/Certificates'
 import Services from '../components/Services'
 import Aftercare from '../components/Aftercare'
 import { useLanguage } from '../context/useLanguage'
@@ -22,8 +20,6 @@ function HomePage() {
       <Hero />
       <ElectrolysisInfo />
       <div className="my-16 space-y-16">
-        <About />
-        <Certificates />
         <Services />
         <Aftercare />
       </div>

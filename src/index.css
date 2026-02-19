@@ -21,3 +21,49 @@ body {
   color: #3E2E23;
   font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
 }
+
+.testimonials-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.45rem, 2.2vw, 1.95rem);
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.testimonials-title-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 999px;
+  background: #9a8f86;
+  opacity: 0.9;
+}
+
+.testimonials-swiper {
+  padding-top: 24px;
+}
+
+.testimonials-swiper .swiper-pagination {
+  top: 0;
+  bottom: auto;
+}
+
+.testimonials-swiper .swiper-pagination-bullet {
+  width: 5px;
+  height: 5px;
+  margin: 0 7px !important;
+  background: #c7bfb8;
+  opacity: 0.85;
+}
+
+.testimonials-swiper .swiper-pagination-bullet-active {
+  background: #8c7f74;
+  opacity: 1;
+}
+
+.testimonials-swiper .swiper-button-disabled {
+  opacity: 0.35;
+}
