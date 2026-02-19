@@ -55,13 +55,13 @@ function Certificates() {
             certificateItems.map((certificate, index) => (
               <article
                 key={certificate.image}
-                className="cursor-pointer rounded-card bg-white p-4 shadow-card transition hover:-translate-y-0.5 hover:shadow-cardHover"
+                className="cursor-pointer overflow-hidden rounded-lg border border-softBrown/20 p-4 transition hover:-translate-y-1 hover:border-softBrown/40"
                 onClick={() => setActiveIndex(index)}
               >
                 <img
                   src={certificate.image}
                   alt={certificate.name || 'Certificate'}
-                  className="h-44 w-full rounded-card object-cover"
+                  className="h-44 w-full rounded-lg object-cover transition-transform duration-500 ease-out hover:scale-[1.015]"
                 />
               </article>
             ))}

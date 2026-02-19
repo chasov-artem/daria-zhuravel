@@ -10,6 +10,8 @@
   },
   "hero": {
     "title": "Electrolysis by Daria Zhuravel",
+    "titleLineOne": "Electrolysis by",
+    "titleLineTwo": "Daria Zhuravel",
     "subtitle": "Expert hair removal with care"
   },
   "electrolysisInfo": {
@@ -61,28 +63,28 @@
         "name": "Electrolysis on the Face",
         "photoCaption": "Face area - Upper lip, chin, ears, cheeks, and between the brows. Removes fine and coarse hair for a smooth, confident look.",
         "description": "Facial electrolysis is one of the most effective and permanent methods of removing unwanted hair.\nThe duration of a session can vary from 15 to 60 minutes, depending on the treated area and hair density.\n\nA full course usually takes 1.5 to 2 years with regular appointments. This is due to the natural hair growth cycles - electrolysis targets each follicle individually, ensuring permanent results over time.\n\nBefore the Procedure\n• Hair length should be about 2-3 mm so the specialist can work precisely.\n• Avoid sun exposure, tanning beds, and aggressive cosmetic treatments (peels, scrubs) for at least 3-5 days before your session.\n• Do not pluck or wax hairs between appointments - shaving or trimming is allowed if necessary.\n\nAfter the Procedure\n• Mild redness or sensitivity is normal and usually subsides within a few hours.\n• Avoid overheating (saunas, gyms, hot baths) for 24-48 hours.\n• Use a gentle antiseptic and soothing cream recommended by your specialist.\n\nElectrolysis on the face is suitable for any hair color and skin type - it works where laser hair removal may be ineffective.",
-        "image": "/face.jpg"
+        "image": "/face.webp"
       },
       {
         "id": "underarms",
         "name": "Electrolysis for Underarms",
         "photoCaption": "Underarm area - Keeps underarms permanently clean and smooth for lasting comfort.",
         "description": "Electrolysis in the underarm area is a reliable way to permanently remove unwanted hair and forget about constant shaving or painful waxing.\n\nThe first session usually lasts 60-120 minutes.\nA full course takes about 1.5 to 2 years with regular visits, depending on natural hair growth cycles.\n\nBefore the Procedure\n• Hair length should be around 2-3 mm.\n• Avoid tanning, sunbeds, and aggressive skincare treatments a few days before your session.\n• Do not use deodorants or antiperspirants on the day of your appointment.\n\nAfter the Procedure\n• Mild redness or sensitivity may occur but usually disappears within a few hours.\n• Avoid heat exposure (sauna, gym, hot baths) for 24-48 hours.\n• For 1-2 days, apply a gentle antiseptic and soothing cream recommended by your specialist.\n\nElectrolysis for underarms ensures perfectly smooth skin forever and is effective for any hair type or color.",
-        "image": "/underarms.jpg"
+        "image": "/underarms.webp"
       },
       {
         "id": "legs",
         "name": "Electrolysis for Legs",
         "photoCaption": "Legs - Permanent smoothness for all hair types, no more shaving or waxing.",
         "description": "Electrolysis on the legs is a permanent solution to unwanted hair, allowing you to enjoy smooth skin without shaving or waxing.\n\nThe first session may last 2 to 4 hours (depending on whether you choose lower legs or full legs).\nA full course takes approximately 1.5-2 years with regular visits, as it works through the natural hair growth cycles.\n\nBefore the Procedure\n• Hair length should be about 2-3 mm.\n• Avoid sunburn, tanning beds, and aggressive cosmetic treatments for several days before your session.\n• Do not pluck or wax hairs between treatments (only shaving or trimming is allowed).\n\nAfter the Procedure\n• Mild redness or sensitivity may appear but usually fades within a few hours.\n• Avoid heavy workouts, hot baths, or saunas for 24-48 hours.\n• For the first days, use a gentle antiseptic and soothing cream as recommended by your specialist.\n\nElectrolysis for legs is suitable for all hair colors and skin types, guaranteeing permanently smooth skin.",
-        "image": "/legs.jpg"
+        "image": "/legs.webp"
       },
       {
         "id": "bikini",
         "name": "Electrolysis for Bikini Area",
         "photoCaption": "Bikini area - Classic, deep, or full bikini for smooth, confident skin.",
         "description": "Electrolysis in the bikini area is an effective and safe method for permanent hair removal. The procedure helps eliminate irritation from shaving or painful waxing, leaving the skin perfectly smooth.\n\nThe first session lasts from 1 to 7 hours, depending on the chosen area.\nA full course takes approximately 1.5-2 years with regular visits to the specialist.\n\nTypes of Bikini Electrolysis\n• Classic Bikini - hair removal along the underwear line.\n• Deep Bikini - removal of hair along the sides and partially inside the intimate area.\n• Full (Total) Bikini - complete removal of hair in the entire intimate zone.\n\nBefore the Procedure\n• Hair length should be around 2-3 mm.\n• Avoid tanning, sunburn, and aggressive skin treatments for several days before your session.\n• Do not apply creams or oils on the day of the procedure.\n\nAfter the Procedure\n• Mild redness or skin sensitivity is normal and usually disappears within a few hours.\n• Avoid pools, hot baths, exercise, and tight synthetic underwear for 24-48 hours.\n• Use a gentle antiseptic and soothing cream as recommended by your specialist.\n\nElectrolysis for the bikini area is suitable for all hair types and guarantees long-lasting comfort and confidence.",
-        "image": "/bikini.jpg"
+        "image": "/bikini.webp"
       }
     ]
   },

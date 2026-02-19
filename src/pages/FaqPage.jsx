@@ -50,7 +50,7 @@ function FaqPage() {
               }
               navigate(`/${language}`)
             }}
-            className="inline-flex items-center rounded-card border border-softBrown/25 bg-white px-4 py-2 text-sm font-medium text-[#3E2E23] transition hover:bg-beige"
+            className="cta-unified"
           >
             ← {t('faq.backButton')}
           </button>

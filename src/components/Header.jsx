@@ -54,10 +54,10 @@ function Header() {
               key={code}
               type="button"
               onClick={() => handleLanguageChange(code)}
-              className={`rounded-md px-2.5 py-1 text-xs font-semibold transition ${
+              className={`rounded-md px-2.5 py-1 text-xs font-semibold transition hover:-translate-y-0.5 hover:shadow-sm ${
                 language === code
                   ? "bg-softBrown text-white"
-                  : "bg-beige text-[#3E2E23]"
+                  : "bg-beige text-[#3E2E23] hover:bg-white"
               }`}
             >
               {code.toUpperCase()}
@@ -69,7 +69,7 @@ function Header() {
           href={freshaLinks.header}
           target="_blank"
           rel="noopener noreferrer"
-          className="hidden rounded-card bg-softBrown px-5 py-2 text-sm font-semibold uppercase tracking-wide text-white transition hover:shadow-cardHover md:inline-flex"
+          className="hidden rounded-lg bg-softBrown px-5 py-2 text-sm font-semibold uppercase tracking-wide text-white transition hover:-translate-y-0.5 hover:bg-softBrown/90 hover:shadow-md md:inline-flex"
         >
           BOOK NOW
         </a>
@@ -83,7 +83,7 @@ function Header() {
         <button
           type="button"
           onClick={() => setIsMenuOpen((prev) => !prev)}
-          className="inline-flex h-10 w-10 items-center justify-center rounded-md border border-softBrown/20 bg-beige md:hidden"
+          className="inline-flex h-10 w-10 items-center justify-center rounded-md border border-softBrown/20 bg-beige transition hover:bg-white hover:shadow-sm md:hidden"
           aria-label="Toggle menu"
         >
           <span className="text-lg">{isMenuOpen ? "✕" : "☰"}</span>
@@ -111,10 +111,10 @@ function Header() {
                 key={code}
                 type="button"
                 onClick={() => handleLanguageChange(code)}
-                className={`rounded-md px-3 py-1.5 text-xs font-semibold ${
+                className={`rounded-md px-3 py-1.5 text-xs font-semibold transition hover:-translate-y-0.5 hover:shadow-sm ${
                   language === code
                     ? "bg-softBrown text-white"
-                    : "bg-beige text-[#3E2E23]"
+                    : "bg-beige text-[#3E2E23] hover:bg-white"
                 }`}
               >
                 {code.toUpperCase()}
@@ -126,7 +126,7 @@ function Header() {
             href={freshaLinks.header}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex rounded-card bg-softBrown px-4 py-2 text-sm font-semibold uppercase tracking-wide text-white"
+            className="inline-flex rounded-lg bg-softBrown px-4 py-2 text-sm font-semibold uppercase tracking-wide text-white transition hover:-translate-y-0.5 hover:bg-softBrown/90 hover:shadow-md"
           >
             BOOK NOW
           </a>

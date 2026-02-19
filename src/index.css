@@ -1,7 +1,8 @@
 @import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap");
 
 :root {
-  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  font-family: Manrope, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
   line-height: 1.5;
   font-weight: 400;
   font-synthesis: none;
@@ -14,12 +15,28 @@
   box-sizing: border-box;
 }
 
+html,
+body,
+#root {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: clip;
+}
+
 body {
   margin: 0;
   min-width: 320px;
   background-color: #F5F0E8;
   color: #3E2E23;
-  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  font-family: Manrope, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: Lora, Georgia, "Times New Roman", serif;
+  letter-spacing: 0.01em;
 }
 
 .testimonials-title {
@@ -27,7 +44,7 @@ body {
   align-items: center;
   justify-content: center;
   gap: 12px;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: Lora, Georgia, "Times New Roman", serif;
   font-size: clamp(1.45rem, 2.2vw, 1.95rem);
   letter-spacing: 0.07em;
   text-transform: uppercase;
@@ -52,9 +69,9 @@ body {
 }
 
 .testimonials-swiper .swiper-pagination-bullet {
-  width: 5px;
-  height: 5px;
-  margin: 0 7px !important;
+  width: 10px;
+  height: 10px;
+  margin: 0 9px !important;
   background: #c7bfb8;
   opacity: 0.85;
 }
@@ -66,4 +83,33 @@ body {
 
 .testimonials-swiper .swiper-button-disabled {
   opacity: 0.35;
+}
+
+.cta-unified {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  border-radius: 0.75rem;
+  border: 1px solid rgba(166, 123, 91, 0.3);
+  background: rgba(255, 255, 255, 0.72);
+  padding: 0.55rem 1.35rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #3e2e23;
+  text-decoration: none;
+  transition:
+    transform 0.24s ease,
+    border-color 0.24s ease,
+    background-color 0.24s ease,
+    box-shadow 0.24s ease;
+}
+
+.cta-unified:hover {
+  transform: translateY(-2px);
+  border-color: rgba(166, 123, 91, 0.55);
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 8px 20px rgba(56, 42, 30, 0.12);
 }
