@@ -117,3 +117,187 @@ h4 {
   background: rgba(255, 255, 255, 0.95);
   box-shadow: 0 8px 20px rgba(56, 42, 30, 0.12);
 }
+
+/* AppCanvas floating circles */
+.canvas-circle {
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(166, 123, 91, 0.15);
+}
+
+.canvas-circle-1 {
+  width: 120px;
+  height: 120px;
+  top: 8%;
+  left: 5%;
+  animation: float-1 8s ease-in-out infinite;
+}
+
+.canvas-circle-2 {
+  width: 80px;
+  height: 80px;
+  top: 25%;
+  right: 8%;
+  animation: float-2 10s ease-in-out infinite;
+}
+
+.canvas-circle-3 {
+  width: 160px;
+  height: 160px;
+  bottom: 30%;
+  left: 10%;
+  animation: float-3 12s ease-in-out infinite;
+}
+
+.canvas-circle-4 {
+  width: 60px;
+  height: 60px;
+  bottom: 15%;
+  right: 15%;
+  animation: float-2 7s ease-in-out infinite reverse;
+}
+
+.canvas-circle-5 {
+  width: 100px;
+  height: 100px;
+  top: 65%;
+  right: 5%;
+  animation: float-1 9s ease-in-out infinite;
+}
+
+.canvas-circle-6 {
+  width: 140px;
+  height: 140px;
+  top: 40%;
+  left: 2%;
+  animation: float-3 11s ease-in-out infinite;
+}
+
+.canvas-circle-7 {
+  width: 50px;
+  height: 50px;
+  top: 12%;
+  right: 20%;
+  animation: float-2 6s ease-in-out infinite;
+}
+
+.canvas-circle-8 {
+  width: 90px;
+  height: 90px;
+  bottom: 45%;
+  right: 25%;
+  animation: float-1 10s ease-in-out infinite reverse;
+}
+
+.canvas-circle-9 {
+  width: 70px;
+  height: 70px;
+  top: 75%;
+  left: 20%;
+  animation: float-2 8s ease-in-out infinite;
+}
+
+.canvas-circle-10 {
+  width: 110px;
+  height: 110px;
+  top: 18%;
+  left: 35%;
+  animation: float-3 9s ease-in-out infinite reverse;
+}
+
+.canvas-circle-11 {
+  width: 65px;
+  height: 65px;
+  top: 55%;
+  left: 8%;
+  animation: float-1 7s ease-in-out infinite;
+}
+
+.canvas-circle-12 {
+  width: 130px;
+  height: 130px;
+  bottom: 8%;
+  left: 40%;
+  animation: float-2 11s ease-in-out infinite reverse;
+}
+
+.canvas-circle-13 {
+  width: 45px;
+  height: 45px;
+  top: 32%;
+  right: 12%;
+  animation: float-3 5s ease-in-out infinite;
+}
+
+.canvas-circle-14 {
+  width: 95px;
+  height: 95px;
+  top: 5%;
+  left: 55%;
+  animation: float-2 9s ease-in-out infinite;
+}
+
+.canvas-circle-15 {
+  width: 75px;
+  height: 75px;
+  bottom: 55%;
+  right: 3%;
+  animation: float-1 8s ease-in-out infinite reverse;
+}
+
+.canvas-circle-16 {
+  width: 115px;
+  height: 115px;
+  top: 85%;
+  right: 18%;
+  animation: float-3 10s ease-in-out infinite;
+}
+
+.canvas-circle-17 {
+  width: 55px;
+  height: 55px;
+  top: 48%;
+  left: 28%;
+  animation: float-2 6s ease-in-out infinite reverse;
+}
+
+.canvas-circle-18 {
+  width: 85px;
+  height: 85px;
+  bottom: 22%;
+  left: 55%;
+  animation: float-1 9s ease-in-out infinite;
+}
+
+.canvas-circle-19 {
+  width: 105px;
+  height: 105px;
+  top: 60%;
+  right: 32%;
+  animation: float-3 7s ease-in-out infinite reverse;
+}
+
+.canvas-circle-20 {
+  width: 60px;
+  height: 60px;
+  top: 22%;
+  right: 35%;
+  animation: float-2 8s ease-in-out infinite;
+}
+
+@keyframes float-1 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33% { transform: translate(12px, -18px) scale(1.06); }
+  66% { transform: translate(-10px, 10px) scale(0.96); }
+}
+
+@keyframes float-2 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(-20px, 12px) scale(1.1); }
+}
+
+@keyframes float-3 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  25% { transform: translate(15px, 15px) scale(0.94); }
+  75% { transform: translate(-12px, -8px) scale(1.04); }
+}
