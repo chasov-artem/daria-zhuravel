@@ -28,12 +28,18 @@ function Aftercare() {
   const mapLanguage = isRussian ? "ru" : "en";
   const beforecareImage = isRussian ? "/before-ru.webp" : "/before.webp";
   const aftercareImage = isRussian ? "/after-ru.webp" : "/after.webp";
+  const contraindicationImage = isRussian
+    ? "/contraindication-ru.webp"
+    : "/contraindication.webp";
   const beforecareAlt = isRussian
     ? "Рекомендации перед электроэпиляцией"
     : "Recommendations before electrolysis";
   const aftercareAlt = isRussian
     ? "Рекомендации после электроэпиляции"
     : "Recommendations after electrolysis";
+  const contraindicationAlt = isRussian
+    ? "Противопоказания к электроэпиляции"
+    : "Electrolysis contraindications";
 
   const [lead, ...rawTips] = lines;
   const tips = rawTips.map((tip) => tip.replace(/^[•-]\s*/, ""));
@@ -107,7 +113,7 @@ function Aftercare() {
               </motion.ul>
             )}
             <MotionDiv
-              className="mt-8 grid grid-cols-1 gap-4 md:grid-cols-2"
+              className="mt-8 grid grid-cols-1 gap-4 md:grid-cols-3"
               variants={{
                 hidden: {},
                 show: { transition: { staggerChildren: 0.14 } },
@@ -144,6 +150,23 @@ function Aftercare() {
                 <img
                   src={aftercareImage}
                   alt={aftercareAlt}
+                  className="w-full rounded-lg object-contain transition-transform duration-500 ease-out hover:scale-[1.015]"
+                />
+              </motion.div>
+              <motion.div
+                className="overflow-hidden rounded-lg"
+                variants={{
+                  hidden: { opacity: 0, y: 30 },
+                  show: {
+                    opacity: 1,
+                    y: 0,
+                    transition: { duration: 0.9, ease: [0.22, 1, 0.36, 1] },
+                  },
+                }}
+              >
+                <img
+                  src={contraindicationImage}
+                  alt={contraindicationAlt}
                   className="w-full rounded-lg object-contain transition-transform duration-500 ease-out hover:scale-[1.015]"
                 />
               </motion.div>

@@ -108,8 +108,14 @@ function Header() {
         </button>
       </div>
 
-      {isMenuOpen && (
-        <div className="border-t border-softBrown/10 bg-white px-4 py-4 md:hidden">
+      <div
+        className={`absolute left-0 right-0 top-full z-40 border-t border-softBrown/10 bg-white px-4 py-4 shadow-lg transition-all duration-300 ease-out md:hidden ${
+          isMenuOpen
+            ? "pointer-events-auto translate-y-0 scale-y-100 opacity-100"
+            : "pointer-events-none -translate-y-2 scale-y-95 opacity-0"
+        }`}
+        aria-hidden={!isMenuOpen}
+      >
           <nav className="mb-4 flex flex-col gap-3">
             {NAV_ITEMS.map((item) => (
               <a
@@ -132,9 +138,7 @@ function Header() {
               {`${language.toUpperCase()} → ${nextLanguage.toUpperCase()}`}
             </button>
           </div>
-
-        </div>
-      )}
+      </div>
     </header>
   );
 }
