@@ -45,12 +45,12 @@ function Hero() {
       initial={{ opacity: 0, y: 12 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.85, ease: [0.22, 1, 0.36, 1] }}
-      className="relative overflow-hidden bg-cover bg-center scroll-mt-28"
+      className="relative min-h-[420px] overflow-hidden bg-cover bg-center scroll-mt-28 md:min-h-[520px]"
       style={{ backgroundImage: "url('/hero.webp')" }}
       aria-label="Electrolysis specialist portrait"
       role="img"
     >
-      <div className="pointer-events-none absolute inset-0 bg-[#f5f0e8]/60" />
+      <div className="pointer-events-none absolute inset-0 bg-[#f5f0e8]/70" />
 
       <div className="relative z-10 mx-auto grid max-w-6xl grid-cols-1 gap-0 px-4 py-8 md:grid-cols-2 md:px-6 md:py-12">
         <MotionDiv
@@ -133,7 +133,8 @@ function Hero() {
               href={freshaLinks.hero}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex w-fit rounded-lg border border-softBrown/50 bg-softBrown px-6 py-3 text-base font-semibold text-white transition hover:bg-softBrown/90 hover:shadow-md"
+              aria-label={t("bookNow")}
+              className="inline-flex w-fit cursor-pointer rounded-lg border border-softBrown/50 bg-softBrown px-6 py-3 text-base font-semibold text-white transition hover:bg-softBrown/90 hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-softBrown/60 focus-visible:ring-offset-2"
             >
               {t("bookNow")}
             </a>

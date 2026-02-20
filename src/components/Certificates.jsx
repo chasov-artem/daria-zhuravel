@@ -83,14 +83,25 @@ function Certificates() {
             certificateItems.map((certificate, index) => (
               <article
                 key={certificate.image}
-                className="cursor-pointer overflow-hidden rounded-lg border border-softBrown/20 p-4 transition hover:-translate-y-1 hover:border-softBrown/40"
+                role="button"
+                tabIndex={0}
+                className="flex cursor-pointer flex-col overflow-hidden rounded-lg border border-softBrown/20 p-4 transition hover:-translate-y-1 hover:border-softBrown/40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-softBrown/60 focus-visible:ring-offset-2"
                 onClick={() => setActiveIndex(index)}
+                onKeyDown={(e) => {
+                  if (e.key === "Enter" || e.key === " ") {
+                    e.preventDefault();
+                    setActiveIndex(index);
+                  }
+                }}
               >
-                <img
-                  src={certificate.image}
-                  alt={certificate.name || "Certificate"}
-                  className="h-44 w-full rounded-lg object-cover transition-transform duration-500 ease-out hover:scale-[1.015]"
-                />
+                <div className="flex h-44 flex-1 overflow-hidden rounded-lg">
+                  <img
+                    src={certificate.image}
+                    alt={certificate.name || "Certificate"}
+                    loading="lazy"
+                    className="h-full w-full object-cover transition-transform duration-500 ease-out hover:scale-[1.015]"
+                  />
+                </div>
               </article>
             ))}
         </div>
@@ -98,7 +109,7 @@ function Certificates() {
 
       {isModalOpen && activeCertificate && (
         <div
-          className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 p-4"
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 p-4 backdrop-blur-sm"
           onClick={closeModal}
           role="dialog"
           aria-modal="true"

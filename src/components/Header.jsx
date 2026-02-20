@@ -3,6 +3,34 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useLanguage } from "../context/useLanguage";
 import SocialLinks from "./SocialLinks";
 
+function BurgerIcon({ isOpen }) {
+  return (
+    <svg
+      className="h-5 w-5 text-[#3E2E23]"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden
+    >
+      {isOpen ? (
+        <>
+          <line x1="18" y1="6" x2="6" y2="18" />
+          <line x1="6" y1="6" x2="18" y2="18" />
+        </>
+      ) : (
+        <>
+          <line x1="3" y1="6" x2="21" y2="6" />
+          <line x1="3" y1="12" x2="21" y2="12" />
+          <line x1="3" y1="18" x2="21" y2="18" />
+        </>
+      )}
+    </svg>
+  );
+}
+
 const NAV_ITEMS = [
   { key: "home", sectionId: "home" },
   { key: "electrolysis", sectionId: "electrolysis" },
@@ -74,7 +102,7 @@ function Header() {
             <a
               key={item.key}
               href={`/${language}#${item.sectionId}`}
-              className="text-xs font-medium hover:text-softBrown"
+              className="text-xs font-medium transition-colors hover:text-softBrown focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-softBrown/60 focus-visible:ring-offset-2 focus-visible:rounded"
               onClick={handleSectionNavigation(item.sectionId)}
             >
               {t(`nav.${item.key}`)}
@@ -86,7 +114,7 @@ function Header() {
           <button
             type="button"
             onClick={() => handleLanguageChange(nextLanguage)}
-            className="rounded-md bg-beige px-2.5 py-1 text-xs font-semibold text-[#3E2E23] transition hover:-translate-y-0.5 hover:bg-white hover:shadow-sm"
+            className="cursor-pointer rounded-md bg-beige px-2.5 py-1 text-xs font-semibold text-[#3E2E23] transition hover:-translate-y-0.5 hover:bg-white hover:shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-softBrown/60 focus-visible:ring-offset-2"
           >
             {`${language.toUpperCase()} → ${nextLanguage.toUpperCase()}`}
           </button>
@@ -101,27 +129,28 @@ function Header() {
         <button
           type="button"
           onClick={() => setIsMenuOpen((prev) => !prev)}
-          className="inline-flex h-10 w-10 items-center justify-center rounded-md border border-softBrown/20 bg-beige transition hover:bg-white hover:shadow-sm md:hidden"
+          className="inline-flex h-10 w-10 cursor-pointer items-center justify-center rounded-md border border-softBrown/20 bg-beige transition hover:bg-white hover:shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-softBrown/60 focus-visible:ring-offset-2 md:hidden"
           aria-label="Toggle menu"
+          aria-expanded={isMenuOpen}
         >
-          <span className="text-lg">{isMenuOpen ? "✕" : "☰"}</span>
+          <BurgerIcon isOpen={isMenuOpen} />
         </button>
       </div>
 
       <div
-        className={`absolute left-0 right-0 top-full z-40 border-t border-softBrown/10 bg-white px-4 py-4 shadow-lg transition-all duration-300 ease-out md:hidden ${
+        className={`absolute left-0 right-0 top-full z-40 origin-top border-t border-softBrown/10 bg-white px-4 py-4 shadow-lg transition-all duration-300 ease-out md:hidden ${
           isMenuOpen
             ? "pointer-events-auto translate-y-0 scale-y-100 opacity-100"
-            : "pointer-events-none -translate-y-2 scale-y-95 opacity-0"
+            : "pointer-events-none -translate-y-2 scale-y-[0.98] opacity-0"
         }`}
         aria-hidden={!isMenuOpen}
       >
           <nav className="mb-4 flex flex-col gap-3">
             {NAV_ITEMS.map((item) => (
-              <a
-                key={item.key}
-                href={`/${language}#${item.sectionId}`}
-                className="text-xs font-medium"
+            <a
+              key={item.key}
+              href={`/${language}#${item.sectionId}`}
+              className="text-xs font-medium transition-colors hover:text-softBrown focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-softBrown/60 focus-visible:ring-offset-2 focus-visible:rounded"
                 onClick={handleSectionNavigation(item.sectionId)}
               >
                 {t(`nav.${item.key}`)}
@@ -133,7 +162,7 @@ function Header() {
             <button
               type="button"
               onClick={() => handleLanguageChange(nextLanguage)}
-              className="rounded-md bg-beige px-3 py-1.5 text-xs font-semibold text-[#3E2E23] transition hover:-translate-y-0.5 hover:bg-white hover:shadow-sm"
+              className="cursor-pointer rounded-md bg-beige px-3 py-1.5 text-xs font-semibold text-[#3E2E23] transition hover:-translate-y-0.5 hover:bg-white hover:shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-softBrown/60 focus-visible:ring-offset-2"
             >
               {`${language.toUpperCase()} → ${nextLanguage.toUpperCase()}`}
             </button>

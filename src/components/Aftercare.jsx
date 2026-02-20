@@ -193,6 +193,9 @@ function Aftercare() {
                   modules={[Autoplay, Pagination, Navigation]}
                   spaceBetween={16}
                   slidesPerView={1}
+                  breakpoints={{
+                    768: { slidesPerView: 2 },
+                  }}
                   speed={1200}
                   autoplay={{
                     delay: 5000,
@@ -221,24 +224,32 @@ function Aftercare() {
                 <button
                   type="button"
                   aria-label="Previous testimonial"
-                  className="testimonials-prev absolute left-2 top-1/2 z-10 -translate-y-1/2 text-[96px] font-light leading-none text-[#d5cfca] transition hover:text-[#a79d95] md:left-7 md:text-[126px]"
+                  className="testimonials-prev absolute left-2 top-1/2 z-10 flex h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full bg-white/80 text-[#8c7f74] shadow-sm transition hover:bg-white hover:text-softBrown hover:shadow focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-softBrown/60 focus-visible:ring-offset-2 md:left-7 md:h-14 md:w-14"
                 >
-                  ‹
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+                    <path d="M15 18l-6-6 6-6" />
+                  </svg>
                 </button>
                 <button
                   type="button"
                   aria-label="Next testimonial"
-                  className="testimonials-next absolute right-2 top-1/2 z-10 -translate-y-1/2 text-[96px] font-light leading-none text-[#d5cfca] transition hover:text-[#a79d95] md:right-7 md:text-[126px]"
+                  className="testimonials-next absolute right-2 top-1/2 z-10 flex h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full bg-white/80 text-[#8c7f74] shadow-sm transition hover:bg-white hover:text-softBrown hover:shadow focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-softBrown/60 focus-visible:ring-offset-2 md:right-7 md:h-14 md:w-14"
                 >
-                  ›
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+                    <path d="M9 18l6-6-6-6" />
+                  </svg>
                 </button>
               </div>
             </article>
           )}
 
-          <article
+          <motion.article
             id="location"
             className="border-b border-softBrown/20 pb-8 pt-6 scroll-mt-28 md:pb-10 md:pt-8"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.2 }}
+            transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
           >
             <h3 className="mb-4 text-xl font-semibold text-[#3E2E23]">
               {t("location.title")}
@@ -253,21 +264,28 @@ function Aftercare() {
               <iframe
                 title={t("location.mapTitle")}
                 src={`https://www.google.com/maps?q=5%20Carole%20Crescent%2C%20Pakuranga%2C%20Auckland%202010&output=embed&hl=${mapLanguage}`}
-                className="h-64 w-full md:h-80"
+                className="h-64 w-full rounded-card md:h-96"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               />
             </div>
-          </article>
+          </motion.article>
 
           <FaqSection />
 
-          <article id="contact" className="scroll-mt-28">
+          <motion.article
+            id="contact"
+            className="scroll-mt-28"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.2 }}
+            transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
+          >
             <h3 className="mb-4 text-xl font-semibold text-[#3E2E23]">
               {t("social.title")}
             </h3>
-            <SocialLinks iconClassName="h-10 w-10" linkClassName="p-1" />
-          </article>
+            <SocialLinks iconClassName="h-10 w-10" linkClassName="p-1 focus-visible:rounded-full focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-softBrown/60 focus-visible:ring-offset-2" />
+          </motion.article>
         </div>
       </div>
     </section>

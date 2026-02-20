@@ -97,7 +97,7 @@ function SocialLinks({ className = '', iconClassName = 'h-8 w-8', linkClassName 
           rel="noreferrer"
           onClick={id === 'email' ? (event) => handleEmailClick(event, emailValue) : undefined}
           aria-label={label}
-          className={`inline-flex items-center justify-center text-softBrown transition hover:scale-105 hover:text-[#8C6447] ${linkClassName}`.trim()}
+          className={`inline-flex cursor-pointer items-center justify-center text-softBrown transition hover:scale-105 hover:text-[#8C6447] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-softBrown/60 focus-visible:ring-offset-2 focus-visible:rounded-full ${linkClassName}`.trim()}
         >
           {createElement(Icon, { className: iconClassName })}
         </a>
