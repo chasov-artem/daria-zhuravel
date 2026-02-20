@@ -26,12 +26,18 @@ function About() {
           viewport={{ once: true, amount: 0.28 }}
           transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
         >
-          <div className="overflow-hidden rounded-3xl border border-softBrown/20 bg-white/60 p-2 shadow-card">
-            <img
-              src="/daria_zhuravel.webp"
-              alt={t("about.photoAlt")}
-              className="h-[360px] w-[300px] rounded-[1.25rem] object-cover object-top transition-transform duration-500 ease-out hover:scale-[1.015] sm:h-[520px] sm:w-[400px]"
-            />
+          <div className="group relative w-full max-w-[340px]">
+            <div className="relative overflow-hidden rounded-2xl shadow-[0_8px_32px_rgba(62,46,35,0.12)] transition-shadow duration-500 group-hover:shadow-[0_16px_48px_rgba(62,46,35,0.16)]">
+              <img
+                src="/daria_zhuravel.webp"
+                alt={t("about.photoAlt")}
+                loading="lazy"
+                className="aspect-[3/4] w-full object-cover object-top transition-transform duration-700 ease-out group-hover:scale-[1.03]"
+                style={{ minHeight: "360px" }}
+              />
+              <div className="pointer-events-none absolute inset-0 rounded-2xl ring-1 ring-inset ring-black/5 transition-opacity duration-500 group-hover:ring-softBrown/20" />
+            </div>
+            <div className="absolute -inset-4 -z-10 rounded-3xl bg-softBrown/10 opacity-0 blur-2xl transition-opacity duration-500 group-hover:opacity-100" />
           </div>
         </MotionDiv>
 
