@@ -34,7 +34,7 @@ function Services() {
                 >
                   <div className="flex h-full flex-col md:flex-row">
                     <Motion.div
-                      className="group relative h-56 w-full overflow-hidden rounded-lg md:h-auto md:w-2/5"
+                      className="group relative h-[378px] w-full overflow-hidden rounded-lg md:h-[378px] md:w-2/5 lg:h-auto"
                       initial={{ opacity: 0, x: -40 }}
                       whileInView={{ opacity: 1, x: 0 }}
                       viewport={{ once: true, amount: 0.15 }}
