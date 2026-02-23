@@ -1,5 +1,5 @@
 import { createElement } from 'react'
-import { FaFacebookF, FaInstagram, FaTelegramPlane } from 'react-icons/fa'
+import { FaFacebookF, FaInstagram, FaWhatsapp } from 'react-icons/fa'
 import { socialLinks } from '../config/socialLinks'
 
 function getEmailHref(email) {
@@ -70,10 +70,10 @@ const SOCIAL_LINKS = [
     Icon: FaFacebookF,
   },
   {
-    id: 'telegram',
-    href: socialLinks.telegram,
-    label: 'Telegram',
-    Icon: FaTelegramPlane,
+    id: 'whatsapp',
+    href: socialLinks.whatsapp,
+    label: 'WhatsApp',
+    Icon: FaWhatsapp,
   },
   {
     id: 'email',

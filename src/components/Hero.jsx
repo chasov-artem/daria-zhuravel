@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { useLanguage } from "../context/useLanguage";
-import { freshaLinks } from "../config/freshaLinks";
+import { socialLinks } from "../config/socialLinks";
 
 const MotionSection = motion.section;
 const MotionDiv = motion.div;
@@ -130,7 +130,7 @@ function Hero() {
             }}
           >
             <a
-              href={freshaLinks.hero}
+              href={socialLinks.whatsapp}
               target="_blank"
               rel="noopener noreferrer"
               aria-label={t("bookNow")}

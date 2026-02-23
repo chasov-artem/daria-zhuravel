@@ -35,6 +35,7 @@ const NAV_ITEMS = [
   { key: "home", sectionId: "home" },
   { key: "electrolysis", sectionId: "electrolysis" },
   { key: "services", sectionId: "services" },
+  { key: "prices", sectionId: "prices" },
   { key: "aftercare", sectionId: "aftercare" },
   { key: "about", sectionId: "about" },
   { key: "contact", sectionId: "contact" },

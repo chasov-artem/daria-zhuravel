@@ -1,5 +1,5 @@
 import { useLanguage } from "../context/useLanguage";
-import { freshaLinks } from "../config/freshaLinks";
+import { socialLinks } from "../config/socialLinks";
 import { motion as Motion } from "framer-motion";
 
 function parsePhotoCaption(caption) {
@@ -77,7 +77,7 @@ function Services() {
                       </p>
 
                       <a
-                        href={freshaLinks[service.id] || freshaLinks.general}
+                        href={socialLinks.whatsapp}
                         target="_blank"
                         rel="noreferrer"
                         aria-label={t("bookNow")}

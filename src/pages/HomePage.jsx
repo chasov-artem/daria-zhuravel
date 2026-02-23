@@ -2,6 +2,7 @@ import Hero from "../components/Hero";
 import ElectrolysisInfo from "../components/ElectrolysisInfo";
 import Layout from "../components/Layout";
 import Services from "../components/Services";
+import Prices from "../components/Prices";
 import Aftercare from "../components/Aftercare";
 import AnimatedSection from "../components/AnimatedSection";
 import { useLanguage } from "../context/useLanguage";
@@ -44,6 +45,7 @@ function HomePage() {
       </AnimatedSection>
       <div className="my-16 space-y-16">
         <Services />
+        <Prices />
         <Aftercare />
       </div>
     </Layout>

@@ -6,6 +6,7 @@
     "home": "Home",
     "electrolysis": "Electrolysis",
     "services": "Services",
+    "prices": "Prices",
     "aftercare": "Care",
     "about": "About",
     "certificates": "Certificates",
@@ -27,6 +28,26 @@
     "title": "About Me",
     "photoAlt": "Master portrait",
     "description": "My name is Daria Zhuravel, certified electrologist and founder of PulseBeauty Studio in Auckland, New Zealand.\n\nMy professional journey began in 2016 — not as a practitioner, but as a client. Experiencing electrolysis personally allowed me to see its true transformative power. I discovered not only a permanent solution to unwanted hair, but also the confidence and freedom that come with feeling comfortable in your own skin. That moment defined my future path.\n\nDetermined to master this craft at the highest level, I began my professional education in 2018, training with leading experts in Moscow. In 2019, I further advanced my qualifications in Dnipro, Ukraine, deepening both my theoretical knowledge and practical precision.\n\nCommitted to excellence and continuous growth, I completed an advanced professional development course in 2025, refining my techniques and staying aligned with the latest international standards in electrolysis.\n\nToday, at PulseBeauty Studio in Auckland, I provide discreet, safe, and highly personalized electrolysis treatments for women and men of all skin and hair types. I work exclusively with modern equipment and sterile single-use tools, maintaining the highest standards of hygiene and professional care.\n\nFor me, beauty is not about trends or standards — it is about confidence, comfort, and self-assurance. My mission is to deliver permanent results with precision, care, and respect for every client’s individuality."
+  },
+  "gallery": {
+    "title": "My Work",
+    "pageTitle": "Gallery",
+    "workAlt": "Work example",
+    "viewMore": "View more",
+    "close": "Close",
+    "previous": "Previous",
+    "next": "Next",
+    "list": [
+      { "image": "/gallery1.webp", "alt": "Work 1" },
+      { "image": "/gallery2.webp", "alt": "Work 2" },
+      { "image": "/gallery3.webp", "alt": "Work 3" },
+      { "image": "/gallery4.webp", "alt": "Work 4" },
+      { "image": "/gallery5.webp", "alt": "Work 5" },
+      { "image": "/gallery6.webp", "alt": "Work 6" },
+      { "image": "/gallery7.webp", "alt": "Work 7" },
+      { "image": "/gallery8.webp", "alt": "Work 8" },
+      { "image": "/gallery9.webp", "alt": "Work 9" }
+    ]
   },
   "certificates": {
     "title": "Diplomas & Certificates",
@@ -91,6 +112,52 @@
         "image": "/bikini.webp"
       }
     ]
+  },
+  "prices": {
+    "title": "Electrolysis Packages",
+    "consultation": {
+      "label": "Initial consultation + 10 minutes trial session",
+      "price": "$45"
+    },
+    "packages": [
+      {
+        "duration": "60 min",
+        "bestValue": true,
+        "items": [
+          { "label": "Single session", "price": "$150" },
+          { "label": "5 sessions", "price": "$700", "save": "$50" },
+          { "label": "10 sessions", "price": "$1350", "save": "$150" }
+        ]
+      },
+      {
+        "duration": "45 min",
+        "bestValue": false,
+        "items": [
+          { "label": "Single session", "price": "$105" },
+          { "label": "5 sessions", "price": "$500", "save": "$25" },
+          { "label": "10 sessions", "price": "$980", "save": "$70" }
+        ]
+      },
+      {
+        "duration": "30 min",
+        "bestValue": false,
+        "items": [
+          { "label": "Single session", "price": "$65" },
+          { "label": "5 sessions", "price": "$310", "save": "$15" },
+          { "label": "10 sessions", "price": "$600", "save": "$50" }
+        ]
+      }
+    ],
+    "saveLabel": "save",
+    "bestValue": "Best Value",
+    "policy": {
+      "title": "Booking & Deposit Policy",
+      "items": [
+        "A deposit is required to secure all appointments.",
+        "Deposits are non-refundable in case of cancellation less than 24 hours before the appointment.",
+        "Package deposits secure your treatment plan and preferred time slots."
+      ]
+    }
   },
   "aftercare": {
     "title": "Care tips and contraindications",
@@ -244,6 +311,8 @@
   },
   "seo": {
     "homeTitle": "Electrolysis Studio | Permanent Hair Removal",
+    "galleryTitle": "Gallery | Electrolysis Studio",
+    "galleryDescription": "View our electrolysis work gallery. Before and after results, treatment examples.",
     "homeDescription": "Certified electrolysis specialist. Safe and personalized permanent hair removal services for face, underarms, legs, and bikini area.",
     "faqTitle": "FAQ | Electrolysis Studio",
     "faqDescription": "Frequently asked questions about electrolysis treatment, suitability, aftercare, and expected results.",

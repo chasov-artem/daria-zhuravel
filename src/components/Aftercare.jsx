@@ -2,6 +2,7 @@ import SocialLinks from "./SocialLinks";
 import { useLanguage } from "../context/useLanguage";
 import FaqSection from "./FaqSection";
 import About from "./About";
+import Gallery from "./Gallery";
 import Certificates from "./Certificates";
 import { motion } from "framer-motion";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -174,6 +175,8 @@ function Aftercare() {
           </MotionArticle>
 
           <About />
+
+          <Gallery />
 
           <Certificates />
 
