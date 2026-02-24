@@ -64,7 +64,6 @@ function TermsOfUse() {
             </article>
           ))}
         <p className="mb-6 text-base leading-relaxed text-[#5b4737]">{t('legal.terms.contact')}</p>
-        <p className="mb-8 rounded-card bg-beige p-4 text-sm text-[#5b4737]">{t('legal.disclaimer')}</p>
       </section>
     </Layout>
   )

@@ -3,6 +3,9 @@ import { Link } from "react-router-dom";
 import { useLanguage } from "../context/useLanguage";
 import { motion, AnimatePresence } from "framer-motion";
 
+const MotionArticle = motion.article;
+const MotionP = motion.p;
+
 function FaqSection() {
   const { t, language } = useLanguage();
   const [openIndex, setOpenIndex] = useState(null);
@@ -14,7 +17,7 @@ function FaqSection() {
   };
 
   return (
-    <motion.article
+    <MotionArticle
       id="faq"
       className="border-b border-softBrown/20 p-6 scroll-mt-28 md:p-8"
       initial={{ opacity: 0, y: 20 }}
@@ -56,7 +59,7 @@ function FaqSection() {
 
               <AnimatePresence initial={false}>
                 {isOpen && (
-                  <motion.p
+                  <MotionP
                     initial={{ height: 0, opacity: 0 }}
                     animate={{ height: "auto", opacity: 1 }}
                     exit={{ height: 0, opacity: 0 }}
@@ -64,7 +67,7 @@ function FaqSection() {
                     className="overflow-hidden whitespace-pre-line pb-4 pl-6 text-sm leading-relaxed text-[#5b4737] md:text-base"
                   >
                     {item.answer}
-                  </motion.p>
+                  </MotionP>
                 )}
               </AnimatePresence>
             </div>
@@ -80,7 +83,7 @@ function FaqSection() {
           {t("faq.button")}
         </Link>
       </div>
-    </motion.article>
+    </MotionArticle>
   );
 }
 

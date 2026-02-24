@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { Navigate, useNavigate, useParams } from "react-router-dom";
 import { SlArrowLeft, SlArrowRight } from "react-icons/sl";
 import { RiCloseLine } from "react-icons/ri";
@@ -31,23 +31,23 @@ function GalleryPage() {
     lang: language,
   });
 
-  const closeModal = () => setActiveIndex(null);
+  const closeModal = useCallback(() => setActiveIndex(null), []);
 
-  const showPrevious = () => {
+  const showPrevious = useCallback(() => {
     if (!hasItems) return;
     setActiveIndex((prevIndex) => {
       if (prevIndex === null) return 0;
       return (prevIndex - 1 + galleryItems.length) % galleryItems.length;
     });
-  };
+  }, [hasItems, galleryItems.length]);
 
-  const showNext = () => {
+  const showNext = useCallback(() => {
     if (!hasItems) return;
     setActiveIndex((prevIndex) => {
       if (prevIndex === null) return 0;
       return (prevIndex + 1) % galleryItems.length;
     });
-  };
+  }, [hasItems, galleryItems.length]);
 
   useEffect(() => {
     if (!isModalOpen) return undefined;
@@ -60,7 +60,7 @@ function GalleryPage() {
 
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [isModalOpen, galleryItems]);
+  }, [isModalOpen, closeModal, showPrevious, showNext]);
 
   const activeItem = isModalOpen ? galleryItems[activeIndex] : null;
 

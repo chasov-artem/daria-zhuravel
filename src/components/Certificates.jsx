@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { SlArrowLeft, SlArrowRight } from "react-icons/sl";
 import { RiCloseLine } from "react-icons/ri";
 import { useLanguage } from "../context/useLanguage";
@@ -13,9 +13,9 @@ function Certificates() {
     Array.isArray(certificateItems) && certificateItems.length > 0;
   const isModalOpen = activeIndex !== null && hasCertificates;
 
-  const closeModal = () => setActiveIndex(null);
+  const closeModal = useCallback(() => setActiveIndex(null), []);
 
-  const showPrevious = () => {
+  const showPrevious = useCallback(() => {
     if (!hasCertificates) return;
     setActiveIndex((prevIndex) => {
       if (prevIndex === null) return 0;
@@ -23,15 +23,15 @@ function Certificates() {
         (prevIndex - 1 + certificateItems.length) % certificateItems.length
       );
     });
-  };
+  }, [hasCertificates, certificateItems.length]);
 
-  const showNext = () => {
+  const showNext = useCallback(() => {
     if (!hasCertificates) return;
     setActiveIndex((prevIndex) => {
       if (prevIndex === null) return 0;
       return (prevIndex + 1) % certificateItems.length;
     });
-  };
+  }, [hasCertificates, certificateItems.length]);
 
   useEffect(() => {
     if (!isModalOpen) return undefined;
@@ -46,7 +46,7 @@ function Certificates() {
     return () => {
       window.removeEventListener("keydown", handleKeyDown);
     };
-  }, [isModalOpen, certificateItems]);
+  }, [isModalOpen, closeModal, showPrevious, showNext]);
 
   const activeCertificate = isModalOpen ? certificateItems[activeIndex] : null;
   const handleTouchStart = (event) => {

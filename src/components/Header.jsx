@@ -38,6 +38,11 @@ const NAV_ITEMS = [
   { key: "prices", sectionId: "prices" },
   { key: "aftercare", sectionId: "aftercare" },
   { key: "about", sectionId: "about" },
+  { key: "gallery", sectionId: "gallery" },
+  { key: "certificates", sectionId: "certificates" },
+  { key: "reviews", sectionId: "reviews" },
+  { key: "faq", sectionId: "faq" },
+  { key: "location", sectionId: "location" },
   { key: "contact", sectionId: "contact" },
 ];
 

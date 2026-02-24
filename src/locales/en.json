@@ -1,7 +1,7 @@
 {
   "bookNow": "Book now",
   "languageLabel": "Language",
-  "studioName": "Studio Name",
+  "studioName": "PulseBeauty Studio",
   "nav": {
     "home": "Home",
     "electrolysis": "Electrolysis",
@@ -9,8 +9,11 @@
     "prices": "Prices",
     "aftercare": "Care",
     "about": "About",
+    "gallery": "Gallery",
     "certificates": "Certificates",
+    "reviews": "Reviews",
     "faq": "FAQ",
+    "location": "Location",
     "contact": "Contact"
   },
   "hero": {
@@ -322,7 +325,6 @@
     "termsDescription": "Terms of use for the electrolysis studio website and booking flow."
   },
   "legal": {
-    "disclaimer": "This page is based on publicly available information and should be reviewed with the studio owner and legal advisor before publishing.",
     "privacy": {
       "title": "Privacy Policy",
       "updatedAt": "Last updated: February 2026",
