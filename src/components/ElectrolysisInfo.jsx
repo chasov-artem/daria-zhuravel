@@ -70,7 +70,7 @@ function ElectrolysisInfo() {
               }}
             >
               <MotionImg
-                src="/Electrolysis.webp"
+                src="/electrolysis.webp"
                 alt={t("electrolysisInfo.title")}
                 className="h-full w-full rounded-lg object-cover"
                 loading="lazy"

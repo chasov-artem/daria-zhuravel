@@ -151,7 +151,7 @@ function Header() {
         }`}
         aria-hidden={!isMenuOpen}
       >
-          <nav className="mb-4 flex flex-col gap-3">
+          <nav className="mb-4 grid grid-cols-3 gap-x-4 gap-y-1">
             {NAV_ITEMS.map((item) => (
             <a
               key={item.key}
