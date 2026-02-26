@@ -41,15 +41,42 @@
     "previous": "Previous",
     "next": "Next",
     "list": [
-      { "image": "/gallery1.webp", "alt": "Work 1" },
-      { "image": "/gallery2.webp", "alt": "Work 2" },
-      { "image": "/gallery3.webp", "alt": "Work 3" },
-      { "image": "/gallery4.webp", "alt": "Work 4" },
-      { "image": "/gallery5.webp", "alt": "Work 5" },
-      { "image": "/gallery6.webp", "alt": "Work 6" },
-      { "image": "/gallery7.webp", "alt": "Work 7" },
-      { "image": "/gallery8.webp", "alt": "Work 8" },
-      { "image": "/gallery9.webp", "alt": "Work 9" }
+      {
+        "image": "/gallery1.webp",
+        "alt": "Work 1"
+      },
+      {
+        "image": "/gallery2.webp",
+        "alt": "Work 2"
+      },
+      {
+        "image": "/gallery3.webp",
+        "alt": "Work 3"
+      },
+      {
+        "image": "/gallery4.webp",
+        "alt": "Work 4"
+      },
+      {
+        "image": "/gallery5.webp",
+        "alt": "Work 5"
+      },
+      {
+        "image": "/gallery6.webp",
+        "alt": "Work 6"
+      },
+      {
+        "image": "/gallery7.webp",
+        "alt": "Work 7"
+      },
+      {
+        "image": "/gallery8.webp",
+        "alt": "Work 8"
+      },
+      {
+        "image": "/gallery9.webp",
+        "alt": "Work 9"
+      }
     ]
   },
   "certificates": {
@@ -97,7 +124,7 @@
         "id": "underarms",
         "name": "Electrolysis for Underarms",
         "photoCaption": "Underarm area - Keeps underarms permanently clean and smooth for lasting comfort.",
-        "description": "Electrolysis in the underarm area is a reliable way to permanently remove unwanted hair and forget about constant shaving or painful waxing.\n\nThe first session usually lasts 60-120 minutes.\nA full course takes about 1.5 to 2 years with regular visits, depending on natural hair growth cycles.\n\nBefore the Procedure\n• Hair length should be around 2-3 mm.\n• Avoid tanning, sunbeds, and aggressive skincare treatments a few days before your session.\n• Do not use deodorants or antiperspirants on the day of your appointment.\n\nAfter the Procedure\n• Mild redness or sensitivity may occur but usually disappears within a few hours.\n• Avoid heat exposure (sauna, gym, hot baths) for 24-48 hours.\n• For 1-2 days, apply a gentle antiseptic and soothing cream recommended by your specialist.\n\nElectrolysis for underarms ensures perfectly smooth skin forever and is effective for any hair type or color.",
+        "description": "Electrolysis in the underarm area is a reliable way to permanently remove unwanted hair and forget about constant shaving or painful waxing.\n\nThe first session usually lasts 60-120 minutes.\nA full course takes about 1.5 to 2 years with regular visits, depending on natural hair growth cycles.\n\nBefore the Procedure\n• Hair length should be around 2-3 mm.\n• Avoid tanning, sunbeds, and aggressive skincare treatments a few days before your session.\nAfter the Procedure\n• Mild redness or sensitivity may occur but usually disappears within a few hours.\n• Avoid heat exposure (sauna, gym, hot baths) for 24-48 hours.\n• For 1-2 days, apply a gentle antiseptic and soothing cream recommended by your specialist.\n\nElectrolysis for underarms ensures perfectly smooth skin forever and is effective for any hair type or color.",
         "image": "/underarms.webp"
       },
       {
@@ -127,27 +154,60 @@
         "duration": "60 min",
         "bestValue": true,
         "items": [
-          { "label": "Single session", "price": "$150" },
-          { "label": "5 sessions", "price": "$700", "save": "$50" },
-          { "label": "10 sessions", "price": "$1350", "save": "$150" }
+          {
+            "label": "Single session",
+            "price": "$150"
+          },
+          {
+            "label": "5 sessions",
+            "price": "$700",
+            "save": "$50"
+          },
+          {
+            "label": "10 sessions",
+            "price": "$1350",
+            "save": "$150"
+          }
         ]
       },
       {
         "duration": "45 min",
         "bestValue": false,
         "items": [
-          { "label": "Single session", "price": "$105" },
-          { "label": "5 sessions", "price": "$500", "save": "$25" },
-          { "label": "10 sessions", "price": "$980", "save": "$70" }
+          {
+            "label": "Single session",
+            "price": "$105"
+          },
+          {
+            "label": "5 sessions",
+            "price": "$500",
+            "save": "$25"
+          },
+          {
+            "label": "10 sessions",
+            "price": "$980",
+            "save": "$70"
+          }
         ]
       },
       {
         "duration": "30 min",
         "bestValue": false,
         "items": [
-          { "label": "Single session", "price": "$65" },
-          { "label": "5 sessions", "price": "$310", "save": "$15" },
-          { "label": "10 sessions", "price": "$600", "save": "$50" }
+          {
+            "label": "Single session",
+            "price": "$65"
+          },
+          {
+            "label": "5 sessions",
+            "price": "$310",
+            "save": "$15"
+          },
+          {
+            "label": "10 sessions",
+            "price": "$600",
+            "save": "$50"
+          }
         ]
       }
     ],
@@ -173,60 +233,60 @@
     "button": "Read More >",
     "items": [
       {
-        "question": "Who is electrolysis for?",
-        "answer": "It can be used on most people including men and women who want body hair removed for cosmetic reasons, women who are suffering from hirsuitism (excess hair in a male pattern), which can be caused by the menopause, conditions such as polycystic ovary syndrome or steroid use, and clients who are undergoing gender reassignment from male to female."
+        "question": "How long does a typical treatment course take?",
+        "answer": "Best results usually require a treatment plan with multiple appointments, together with aftercare guidance, over a period that may range from several weeks to several months or longer."
       },
       {
-        "question": "Who can't have electrolysis?",
-        "answer": "Conditions that may prevent treatment include: haemophilia, heart disorders, pacemakers, cochlear implant, contagious diseases and disorders, Hepatitis B, HIV, cancer or epilepsy.\n\nConditions that may restrict treatment: steroid drugs, endocrine disorders, metal plates and pins, cardiovascular disorders, loss of tactile sensation in localised areas, skin disorders and diseases, nickel allergy, hairy moles, pregnancy, drugs/alcohol, cuts/abrasions/bruising, emotional problems, dermagraphic skin condition, microdermabrasion or dermabrasion, chemical peels, latex allergy (wear vinyl gloves), certain medications or creams, breast implants (contra-indication to underarm treatment), epilepsy, diabetes, psoriasis, eczema, acne, dermabrasion on the areas to be treated."
+        "question": "Who can benefit from electrolysis?",
+        "answer": "Electrolysis is suitable for most clients, including women and men seeking hair removal for cosmetic reasons, women experiencing hirsutism (male-pattern excess hair) linked to menopause, conditions like polycystic ovary syndrome, or steroid use, and clients undergoing male-to-female gender reassignment."
       },
       {
-        "question": "How many treatments are needed?",
-        "answer": "For optimal results, several treatments and after-care advice are usually offered over a period of weeks to several months or longer."
+        "question": "When is electrolysis not recommended?",
+        "answer": "Some conditions may fully prevent treatment, including haemophilia, heart disease, pacemakers, cochlear implants, infectious diseases and disorders, Hepatitis B, HIV, cancer, or epilepsy.\n\nOther factors may limit or require caution, such as steroid medication, endocrine disorders, metal plates or pins, cardiovascular issues, reduced tactile sensation in local areas, skin disorders, nickel allergy, hairy moles, pregnancy, drugs/alcohol, cuts, abrasions or bruising, emotional conditions, dermagraphic skin, microdermabrasion or dermabrasion, chemical peels, latex allergy (vinyl gloves can be used), certain medicines or creams, breast implants (contra-indication for underarm treatment), diabetes, psoriasis, eczema, acne, and dermabrasion in areas planned for treatment."
       }
     ]
   },
   "faqPage": {
     "items": [
       {
-        "question": "How does electrolysis work?",
-        "answer": "The procedure involves inserting a very fine, disposable, sterile probe (the same diameter as the hair) into the hair follicle, which is a natural opening in the skin. The current is then skilfully discharged into the hair follicle. The client's only sensation is heat passing down the probe to the base of the follicle.\n\nThe follicles are destroyed using either heat (thermolysis) or a chemical reaction (galvanic), or both combined (with the blend). The treatment can be tailored to each client's skin, hair, and pain tolerance.\n\nDuring a course of treatments, there will be a constant, gradual decrease in hair growth until it is completely removed. The number of treatments required will vary depending on the individual and is discussed during the initial consultation.\n\nAny part of the body can be treated with electrolysis. The first sign that electrolysis is working is that the hair grows softer, finer, and lighter in colour."
+        "question": "How is electrolysis different from laser or IPL?",
+        "answer": "Electrolysis treats each follicle individually with a fine, sterile disposable probe and aims for complete permanent hair removal after the full course.\n\nLaser and IPL more often provide long-term hair reduction rather than total permanent removal in the treated area. They can still be useful for some clients, but may be less suitable depending on hair colour, skin tone, or certain medications.\n\nElectrolysis can take longer, but it is chosen when the goal is permanent removal of all treated hair."
       },
       {
-        "question": "What's the difference between electrolysis and laser?",
-        "answer": "Electrolysis uses a very fine, disposable, sterile probe to permanently destroy each hair follicle's ability to reproduce, resulting in complete permanent removal after a course of treatment.\n\nLaser and IPL usually provide permanent hair reduction rather than full permanent removal in a treated area. They can be helpful for some people but are often less suitable for certain hair colours, skin tones, and medication profiles.\n\nElectrolysis may take longer overall, but it is used when permanent removal of all treated hair is the goal."
+        "question": "Is electrolysis painful?",
+        "answer": "Electrolysis is not entirely pain-free, but discomfort is usually manageable. Most people describe the feeling as a brief warmth, a small prick, or a mild sting when current is delivered.\n\nSensitivity differs by area, with places like the upper lip often feeling stronger.\n\nSettings can be adjusted during treatment to match individual comfort."
       },
       {
-        "question": "How many treatments do I need?",
-        "answer": "The number of treatments varies by client because hair density, growth cycles, hair thickness, skin sensitivity, and treatment area all differ.\n\nMost areas require regular appointments over an extended period, often at least a year or more. Session lengths can range from around 30 minutes to several hours depending on the area being treated.\n\nYou'll usually notice progressive improvement throughout the treatment plan rather than only at the end."
+        "question": "How exactly does electrolysis remove hair?",
+        "answer": "During treatment, a very fine sterile disposable probe (about the same thickness as the hair) is inserted into the follicle through its natural skin opening. A controlled current is then delivered into the follicle, and clients typically feel heat near its base.\n\nFollicles are treated with heat (thermolysis), a chemical process (galvanic), or a combination of both (blend). Settings are tailored to each client's skin, hair, and tolerance.\n\nAcross a course of sessions, hair growth decreases steadily until complete removal is achieved. The required number of appointments varies by person and is discussed at consultation.\n\nElectrolysis can be performed on almost any body area. Early progress is often seen when hairs begin to return finer, softer, and lighter."
       },
       {
-        "question": "Does electrolysis hurt?",
-        "answer": "Electrolysis is not completely painless, but sensation is typically manageable. Most clients describe it as brief heat, a pinprick, or a mild sting when current is applied.\n\nSensitivity can vary by area; for example, the upper lip is often more sensitive.\n\nTreatment settings can be adjusted to suit individual comfort and tolerance."
+        "question": "What body areas can be treated with electrolysis?",
+        "answer": "Nearly all areas can be treated, except the inner ear.\n\nCommon facial zones include the upper lip, chin, neck, cheeks, brows, between the brows, nose, and hairline. Body treatment areas often include the chest, nipples, abdomen, underarms, arms, shoulders, bikini line, buttocks, fingers, and toes.\n\nElectrolysis is suitable for all skin tones and hair types."
       },
       {
-        "question": "Which areas can be treated by electrolysis?",
-        "answer": "Apart from the inner ear, virtually any area can be treated.\n\nCommon facial areas include upper lip, chin, neck, cheeks, brows, between brows, nose, and hairline. Body areas often include chest, nipples, abdomen, underarms, arms, shoulders, bikini line, buttocks, fingers, and toes.\n\nElectrolysis can be used across all skin colours and hair types."
+        "question": "How many sessions will I likely need?",
+        "answer": "Session count is always individual and depends on factors like hair density, growth cycles, hair thickness, skin sensitivity, and the treatment area.\n\nMost zones need regular appointments over a longer timeline, often a year or more. Session duration may vary from roughly 30 minutes to several hours, depending on the area.\n\nImprovement is typically gradual and noticeable throughout the course, not only at the end."
       },
       {
-        "question": "Can I have electrolysis if I'm pregnant?",
-        "answer": "Pregnancy is not usually a contraindication to thermolysis/shortwave diathermy electrolysis.\n\nHowever, treatment of breast and abdominal areas is usually avoided in later stages due to skin sensitivity and stretching.\n\nBlend/galvanic approaches are often avoided during pregnancy. If unsure which method is being used, discuss this with your practitioner and healthcare provider."
+        "question": "Can I continue electrolysis during pregnancy?",
+        "answer": "Pregnancy is generally not considered a strict contraindication for thermolysis/shortwave diathermy electrolysis.\n\nThat said, breast and abdominal areas are commonly avoided in later pregnancy because of increased sensitivity and skin stretching.\n\nBlend/galvanic methods are often avoided during pregnancy. If you are unsure which modality is being used, discuss it with your practitioner and healthcare provider."
       },
       {
-        "question": "I want electrolysis but I can't bear the thought of letting the hair grow between appointments. What can I do?",
-        "answer": "Between appointments, hair can still be managed by cutting or shaving, including facial areas.\n\nHair generally does not need to be very long for treatment, so your practitioner can guide you on suitable length before each session."
+        "question": "I do not want to grow hair between appointments. What can I do?",
+        "answer": "Between sessions, you can usually manage hair by shaving or trimming, including on facial areas.\n\nHair typically does not need to be very long for treatment, and your practitioner can advise the ideal length before each visit."
       },
       {
-        "question": "What does the skin look like following treatment?",
-        "answer": "Immediately after treatment there is often temporary redness and localized swelling, depending on skin sensitivity.\n\nBy the next day, most people see only minor signs. Some may notice tiny reddish-brown pinprick scabs, especially where hairs are distorted or ingrown. These typically heal and shed naturally over days to about a week."
+        "question": "How does the skin usually look after a session?",
+        "answer": "Right after treatment, temporary redness and localized swelling are common, depending on skin sensitivity.\n\nBy the following day, most clients notice only minor signs. Some may develop tiny red-brown pinpoint scabs, especially where hairs were distorted or ingrown; these normally heal and shed on their own within several days to about a week."
       },
       {
-        "question": "Why shouldn't I wax, tweeze, thread, or epilate during treatment?",
-        "answer": "Electrolysis is recognized as a permanent hair-removal method.\n\nMethods that remove hair from the root (waxing, tweezing, threading, epilating) can interfere with treatment consistency and may stimulate stronger regrowth over time in some cases.\n\nIf you need interim management, shaving/cutting is usually preferred because these methods do not remove the root."
+        "question": "Why should I avoid waxing, tweezing, threading, or epilating during treatment?",
+        "answer": "Electrolysis is a recognized method of permanent hair removal.\n\nRoot-removal methods such as waxing, tweezing, threading, or epilating can disrupt treatment consistency and, in some cases, encourage stronger regrowth over time.\n\nFor in-between maintenance, shaving or trimming is usually preferred because the root remains intact."
       },
       {
-        "question": "Is there a good time to start electrolysis treatment?",
-        "answer": "It is best to start when you can maintain regular appointments.\n\nAvoid beginning right before long travel, very busy periods, or major events if those would interrupt the treatment schedule.\n\nYou should still see progressive reduction during the course, which helps keep motivation high."
+        "question": "When is the best time to begin electrolysis?",
+        "answer": "The best time to start is when you can keep regular appointments.\n\nTry not to begin immediately before long travel, extremely busy periods, or major events if they could interrupt your schedule.\n\nYou can still expect progressive reduction during the course, which helps maintain motivation."
       }
     ]
   },

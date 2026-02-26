@@ -1,6 +1,6 @@
 function AppCanvas({ children }) {
   return (
-    <div className="relative min-h-screen w-full max-w-[1920px] mx-auto overflow-hidden">
+    <div className="relative min-h-screen w-full max-w-[1920px] mx-auto">
       {/* Рухомі кружечки */}
       <div className="pointer-events-none absolute inset-0">
         <span className="canvas-circle canvas-circle-1" aria-hidden="true" />

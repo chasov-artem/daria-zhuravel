@@ -85,7 +85,7 @@ function Certificates() {
                 key={certificate.image}
                 role="button"
                 tabIndex={0}
-                className="flex cursor-pointer flex-col overflow-hidden rounded-lg border border-softBrown/20 p-4 transition hover:-translate-y-1 hover:border-softBrown/40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-softBrown/60 focus-visible:ring-offset-2"
+                className="flex h-full cursor-pointer flex-col overflow-hidden rounded-lg border border-softBrown/20 p-4 transition hover:-translate-y-1 hover:border-softBrown/40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-softBrown/60 focus-visible:ring-offset-2"
                 onClick={() => setActiveIndex(index)}
                 onKeyDown={(e) => {
                   if (e.key === "Enter" || e.key === " ") {
@@ -94,12 +94,12 @@ function Certificates() {
                   }
                 }}
               >
-                <div className="flex h-44 flex-1 overflow-hidden rounded-lg">
+                <div className="aspect-[4/3] w-full overflow-hidden rounded-lg bg-white">
                   <img
                     src={certificate.image}
                     alt={certificate.name || "Certificate"}
                     loading="lazy"
-                    className="h-full w-full object-cover transition-transform duration-500 ease-out hover:scale-[1.015]"
+                    className="h-full w-full object-contain p-2 transition-transform duration-500 ease-out hover:scale-[1.015]"
                   />
                 </div>
               </article>

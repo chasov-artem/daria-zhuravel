@@ -3,7 +3,7 @@ import Footer from "./Footer";
 
 function Layout({ children }) {
   return (
-    <div className="relative min-h-screen overflow-hidden bg-beige font-sans text-[#3E2E23]">
+    <div className="relative min-h-screen bg-beige font-sans text-[#3E2E23]">
       {/* floating circles */}
       <span
         className="absolute top-[12%] right-[8%] z-0 w-24 h-24 rounded-full bg-softBrown/25 pointer-events-none"
