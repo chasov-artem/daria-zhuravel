@@ -1,0 +1,6 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Sitemap location (update the domain when you deploy)
+Sitemap: https://www.pulsebeauty-studio.com/sitemap.xml

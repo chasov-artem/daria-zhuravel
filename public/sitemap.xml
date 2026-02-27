@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- Home - English -->
+  <url>
+    <loc>https://www.pulsebeauty-studio.com/en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.pulsebeauty-studio.com/en"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.pulsebeauty-studio.com/ru"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <!-- Home - Russian -->
+  <url>
+    <loc>https://www.pulsebeauty-studio.com/ru</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.pulsebeauty-studio.com/en"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.pulsebeauty-studio.com/ru"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <!-- FAQ -->
+  <url>
+    <loc>https://www.pulsebeauty-studio.com/en/faq</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.pulsebeauty-studio.com/ru/faq</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Gallery -->
+  <url>
+    <loc>https://www.pulsebeauty-studio.com/en/gallery</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.pulsebeauty-studio.com/ru/gallery</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Privacy -->
+  <url>
+    <loc>https://www.pulsebeauty-studio.com/en/privacy</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.pulsebeauty-studio.com/ru/privacy</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <!-- Terms -->
+  <url>
+    <loc>https://www.pulsebeauty-studio.com/en/terms</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.pulsebeauty-studio.com/ru/terms</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+</urlset>

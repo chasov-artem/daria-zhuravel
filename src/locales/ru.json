@@ -1,4 +1,16 @@
 {
+  "seo": {
+    "homeTitle": "Электроэпиляция от Дария Журавель | PulseBeauty Studio Окленд",
+    "homeDescription": "Профессиональная электроэпиляция в Окленде, Новая Зеландия. Постоянное удаление волос на лице, подмышках, ногах, бикини. Сертифицированный специалист Дария Журавель.",
+    "faqTitle": "FAQ | Вопросы об электроэпиляции | PulseBeauty Studio",
+    "faqDescription": "Частые вопросы об электроэпиляции: боль, количество сеансов, электроэпиляция vs лазер, беременность, уход. Ответы эксперта PulseBeauty Studio Окленд.",
+    "galleryTitle": "Галерея | Результаты электроэпиляции | PulseBeauty Studio",
+    "galleryDescription": "Результаты до и после электроэпиляции. Реальные трансформации клиентов PulseBeauty Studio в Окленде.",
+    "privacyTitle": "Политика конфиденциальности | PulseBeauty Studio",
+    "privacyDescription": "Политика конфиденциальности PulseBeauty Studio. Как мы собираем, используем и защищаем ваши данные.",
+    "termsTitle": "Условия использования | PulseBeauty Studio",
+    "termsDescription": "Условия использования сайта и услуг записи PulseBeauty Studio."
+  },
   "bookNow": "Записаться",
   "languageLabel": "Язык",
   "studioName": "PulseBeauty Studio",
