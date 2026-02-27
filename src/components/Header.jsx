@@ -92,7 +92,7 @@ function Header() {
           className="flex shrink-0 items-center gap-3 no-underline"
         >
           <img
-            src="/daria-logo.PNG"
+            src="/biglogo.PNG"
             alt="Studio logo"
             className="h-12 w-auto object-contain"
           />

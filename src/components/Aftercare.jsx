@@ -263,14 +263,17 @@ function Aftercare() {
             <p className="mb-4 text-base leading-relaxed text-[#5b4737]">
               {t("location.addressLineTwo")}
             </p>
-            <div className="overflow-hidden rounded-card border border-softBrown/15">
+            <div className="overflow-hidden rounded-card border border-softBrown/15 bg-white/70">
               <iframe
                 title={t("location.mapTitle")}
-                src={`https://www.google.com/maps?q=5%20Carole%20Crescent%2C%20Pakuranga%2C%20Auckland%202010&output=embed&hl=${mapLanguage}`}
-                className="h-64 w-full rounded-card md:h-96"
+                src={`https://www.google.com/maps?q=Pakuranga%2C%20Auckland&output=embed&hl=${mapLanguage}`}
+                className="h-64 w-full rounded-t-card md:h-96"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               />
+              <div className="border-t border-softBrown/10 bg-white/90 px-3 py-2 text-center text-xs text-[#5b4737] md:text-sm">
+                {t("location.mapCaption")}
+              </div>
             </div>
           </motion.article>
 

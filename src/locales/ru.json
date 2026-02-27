@@ -367,10 +367,11 @@
     ]
   },
   "location": {
-    "title": "Как нас найти",
-    "addressLineOne": "5 Carole Crescent",
-    "addressLineTwo": "Pakuranga, Auckland 2010",
-    "mapTitle": "Карта проезда в PulseBeauty Studio"
+  "title": "Локация",
+  "addressLineOne": "PulseBeauty Studio — это частная домашняя студия электроэпиляции, расположенная в Восточном Окленде (район Pakuranga).\n\nКабинет полностью оборудован для того, чтобы обеспечить профессиональную, гигиеничную и комфортную обстановку.",
+  "addressLineTwo": "Приём ведётся только по предварительной записи.\nПолный адрес предоставляется после подтверждения бронирования и внесения депозита.",
+  "mapTitle": "Карта проезда в PulseBeauty Studio",
+  "mapCaption": "Private home-based studio. Exact address provided after booking."
   },
   "seo": {
     "homeTitle": "Студия электроэпиляции | Удаление волос навсегда",

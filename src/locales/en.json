@@ -367,10 +367,11 @@
     ]
   },
   "location": {
-    "title": "How to Find Us",
-    "addressLineOne": "5 Carole Crescent",
-    "addressLineTwo": "Pakuranga, Auckland 2010",
-    "mapTitle": "Map to PulseBeauty Studio"
+  "title": "Location",
+  "addressLineOne": "PulseBeauty Studio is a private home-based electrolysis studio located in East Auckland (Pakuranga area).\n\nThe treatment room is fully equipped to provide a professional, hygienic, and comfortable environment.",
+  "addressLineTwo": "Visits are by appointment only.\nFull address details will be provided after booking confirmation and deposit.",
+  "mapTitle": "Map to PulseBeauty Studio",
+  "mapCaption": "Private home-based studio. Exact address provided after booking."
   },
   "seo": {
     "homeTitle": "Electrolysis Studio | Permanent Hair Removal",
