@@ -229,7 +229,17 @@ function Aftercare() {
                   aria-label="Previous testimonial"
                   className="testimonials-prev absolute left-2 top-1/2 z-10 flex h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full bg-white/80 text-[#8c7f74] shadow-sm transition hover:bg-white hover:text-softBrown hover:shadow focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-softBrown/60 focus-visible:ring-offset-2 md:left-7 md:h-14 md:w-14"
                 >
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    aria-hidden
+                  >
                     <path d="M15 18l-6-6 6-6" />
                   </svg>
                 </button>
@@ -238,7 +248,17 @@ function Aftercare() {
                   aria-label="Next testimonial"
                   className="testimonials-next absolute right-2 top-1/2 z-10 flex h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full bg-white/80 text-[#8c7f74] shadow-sm transition hover:bg-white hover:text-softBrown hover:shadow focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-softBrown/60 focus-visible:ring-offset-2 md:right-7 md:h-14 md:w-14"
                 >
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    aria-hidden
+                  >
                     <path d="M9 18l6-6-6-6" />
                   </svg>
                 </button>
@@ -290,7 +310,10 @@ function Aftercare() {
             <h3 className="mb-4 text-xl font-semibold text-[#3E2E23]">
               {t("social.title")}
             </h3>
-            <SocialLinks iconClassName="h-10 w-10" linkClassName="p-1 focus-visible:rounded-full focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-softBrown/60 focus-visible:ring-offset-2" />
+            <SocialLinks
+              iconClassName="h-10 w-10"
+              linkClassName="p-1 focus-visible:rounded-full focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-softBrown/60 focus-visible:ring-offset-2"
+            />
           </motion.article>
         </div>
       </div>

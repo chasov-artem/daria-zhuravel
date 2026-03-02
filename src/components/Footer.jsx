@@ -23,10 +23,16 @@ function Footer() {
           <p>{t("footer.copyright")}</p>
         </div>
         <div className="flex items-center gap-5 text-xs sm:gap-6 sm:text-sm">
-          <Link className="transition-colors hover:text-softBrown focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-softBrown/60 focus-visible:ring-offset-2 focus-visible:rounded" to={`/${language}/privacy`}>
+          <Link
+            className="transition-colors hover:text-softBrown focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-softBrown/60 focus-visible:ring-offset-2 focus-visible:rounded"
+            to={`/${language}/privacy`}
+          >
             {t("footer.privacy")}
           </Link>
-          <Link className="transition-colors hover:text-softBrown focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-softBrown/60 focus-visible:ring-offset-2 focus-visible:rounded" to={`/${language}/terms`}>
+          <Link
+            className="transition-colors hover:text-softBrown focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-softBrown/60 focus-visible:ring-offset-2 focus-visible:rounded"
+            to={`/${language}/terms`}
+          >
             {t("footer.terms")}
           </Link>
         </div>

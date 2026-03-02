@@ -151,28 +151,28 @@ function Header() {
         }`}
         aria-hidden={!isMenuOpen}
       >
-          <nav className="mb-4 grid grid-cols-3 gap-x-4 gap-y-1">
-            {NAV_ITEMS.map((item) => (
+        <nav className="mb-4 grid grid-cols-3 gap-x-4 gap-y-1">
+          {NAV_ITEMS.map((item) => (
             <a
               key={item.key}
               href={`/${language}#${item.sectionId}`}
               className="text-xs font-medium transition-colors hover:text-softBrown focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-softBrown/60 focus-visible:ring-offset-2 focus-visible:rounded"
-                onClick={handleSectionNavigation(item.sectionId)}
-              >
-                {t(`nav.${item.key}`)}
-              </a>
-            ))}
-          </nav>
-
-          <div className="mb-4 flex items-center gap-2">
-            <button
-              type="button"
-              onClick={() => handleLanguageChange(nextLanguage)}
-              className="cursor-pointer rounded-md bg-beige px-3 py-1.5 text-xs font-semibold text-[#3E2E23] transition hover:-translate-y-0.5 hover:bg-white hover:shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-softBrown/60 focus-visible:ring-offset-2"
+              onClick={handleSectionNavigation(item.sectionId)}
             >
-              {`${language.toUpperCase()} → ${nextLanguage.toUpperCase()}`}
-            </button>
-          </div>
+              {t(`nav.${item.key}`)}
+            </a>
+          ))}
+        </nav>
+
+        <div className="mb-4 flex items-center gap-2">
+          <button
+            type="button"
+            onClick={() => handleLanguageChange(nextLanguage)}
+            className="cursor-pointer rounded-md bg-beige px-3 py-1.5 text-xs font-semibold text-[#3E2E23] transition hover:-translate-y-0.5 hover:bg-white hover:shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-softBrown/60 focus-visible:ring-offset-2"
+          >
+            {`${language.toUpperCase()} → ${nextLanguage.toUpperCase()}`}
+          </button>
+        </div>
       </div>
     </header>
   );

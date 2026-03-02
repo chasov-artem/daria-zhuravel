@@ -1,16 +1,78 @@
-# React + Vite
+# PulseBeauty Studio — Daria Zhuravel
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Сайт студії електроепіляції PulseBeauty Studio (Окленд, NZ). React + Vite, мультимовність (en/ru), SEO.
 
-Currently, two official plugins are available:
+## Стек
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React 19** + **Vite 7**
+- **Tailwind CSS 4**
+- **React Router 7**
+- **Framer Motion**, **Swiper**, **react-icons**
 
-## React Compiler
+## Запуск
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+npm install
+npm run dev
+```
 
-## Expanding the ESLint configuration
+Сайт відкриється на `http://localhost:5173`. За замовчуванням редірект на `/en`.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Збірка
+
+```bash
+npm run build
+```
+
+Результат у `dist/`. Перегляд:
+
+```bash
+npm run preview
+```
+
+## Змінні середовища
+
+| Змінна        | Опис                          |
+|---------------|-------------------------------|
+| `VITE_SITE_URL` | Production URL (наприклад `https://www.pulsebeauty-studio.com`) |
+
+Якщо не задано, використовується значення з `src/config/seo.js`.
+
+## Деплой
+
+Підтримуються **Netlify** і **Vercel**:
+
+- `netlify.toml` — build: `npm run build`, publish: `dist`
+- `vercel.json` — SPA rewrites на `index.html`
+
+Після деплою онови URL у `index.html`, `public/robots.txt`, `public/sitemap.xml`, `src/config/seo.js` (або задай `VITE_SITE_URL`).
+
+## SEO
+
+Детальні інструкції — у [SEO_SETUP.md](./SEO_SETUP.md).
+
+## Необхідні assets (public/)
+
+Додай у `public/` такі файли, щоб уникнути битих зображень:
+
+| Файл | Призначення |
+|------|-------------|
+| `biglogo.PNG` | Логотип у header і hero |
+| `studio.png` | Назва студії в header |
+| `daria-logo.PNG` | Favicon (index.html) |
+| `Diploma21century.png` | Сертифікат |
+| `certificate.png` | Сертифікат |
+| `certificate1.png` … `certificate4.png` | Сертифікати |
+
+Зображення галереї та сервісів (`.webp`) вже є.
+
+## Скрипти
+
+| Команда | Опис |
+|---------|------|
+| `npm run dev` | Dev-сервер з HMR |
+| `npm run build` | Production build |
+| `npm run preview` | Перегляд збірки |
+| `npm run lint` | ESLint |
+| `npm run test` | Запуск тестів (Vitest) |
+| `npm run test:watch` | Тести в watch-режимі |
