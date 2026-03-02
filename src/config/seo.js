@@ -7,9 +7,9 @@ export const SEO_CONFIG = {
   SITE_URL: import.meta.env.VITE_SITE_URL || 'https://www.pulsebeauty-studio.com',
 
   /** Default meta for social sharing (used in index.html) */
-  defaultTitle: 'Electrolysis by Daria Zhuravel | PulseBeauty Studio Auckland',
+  defaultTitle: 'Electrolysis Auckland | Permanent Hair Removal | PulseBeauty Studio',
   defaultDescription:
-    'Professional electrolysis services in Auckland, NZ. FDA-approved permanent hair removal. Certified electrologist Daria Zhuravel.',
+    'Electrolysis in Auckland. Professional permanent hair removal for face, underarms, legs, bikini. FDA-approved. Certified electrologist Daria Zhuravel | PulseBeauty Studio.',
   defaultImage: '/daria_zhuravel.webp',
   siteName: 'PulseBeauty Studio',
   locale: 'en_NZ',
