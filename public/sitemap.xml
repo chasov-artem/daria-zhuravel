@@ -4,6 +4,7 @@
   <!-- Home - English -->
   <url>
     <loc>https://www.pulsebeauty-studio.com/en</loc>
+    <lastmod>2026-03-02</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.pulsebeauty-studio.com/en"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://www.pulsebeauty-studio.com/ru"/>
     <changefreq>weekly</changefreq>
@@ -12,6 +13,7 @@
   <!-- Home - Russian -->
   <url>
     <loc>https://www.pulsebeauty-studio.com/ru</loc>
+    <lastmod>2026-03-02</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.pulsebeauty-studio.com/en"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://www.pulsebeauty-studio.com/ru"/>
     <changefreq>weekly</changefreq>
@@ -20,44 +22,52 @@
   <!-- FAQ -->
   <url>
     <loc>https://www.pulsebeauty-studio.com/en/faq</loc>
+    <lastmod>2026-03-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.pulsebeauty-studio.com/ru/faq</loc>
+    <lastmod>2026-03-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <!-- Gallery -->
   <url>
     <loc>https://www.pulsebeauty-studio.com/en/gallery</loc>
+    <lastmod>2026-03-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.pulsebeauty-studio.com/ru/gallery</loc>
+    <lastmod>2026-03-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <!-- Privacy -->
   <url>
     <loc>https://www.pulsebeauty-studio.com/en/privacy</loc>
+    <lastmod>2026-03-02</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.pulsebeauty-studio.com/ru/privacy</loc>
+    <lastmod>2026-03-02</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <!-- Terms -->
   <url>
     <loc>https://www.pulsebeauty-studio.com/en/terms</loc>
+    <lastmod>2026-03-02</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.pulsebeauty-studio.com/ru/terms</loc>
+    <lastmod>2026-03-02</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>

@@ -25,6 +25,38 @@ function FaqPage() {
     lang: language,
   })
 
+  // FAQPage JSON-LD for Google rich results
+  useEffect(() => {
+    if (faqItems.length === 0) return
+
+    const faqSchema = {
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: faqItems.map((item) => ({
+        '@type': 'Question',
+        name: item.question,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: item.answer,
+        },
+      })),
+    }
+
+    let script = document.getElementById('faq-schema')
+    if (script) script.remove()
+
+    script = document.createElement('script')
+    script.id = 'faq-schema'
+    script.type = 'application/ld+json'
+    script.textContent = JSON.stringify(faqSchema)
+    document.head.appendChild(script)
+
+    return () => {
+      const s = document.getElementById('faq-schema')
+      if (s) s.remove()
+    }
+  }, [faqItems])
+
   if (!isSupportedLanguage) {
     return <Navigate to="/en" replace />
   }
