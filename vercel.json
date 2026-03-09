@@ -1,4 +1,22 @@
 {
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/en",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "pulsebeauty-studio.com"
+        }
+      ],
+      "destination": "https://www.pulsebeauty-studio.com/$1",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     {
       "source": "/(.*)",

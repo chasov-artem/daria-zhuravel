@@ -3,6 +3,18 @@
   publish = "dist"
 
 [[redirects]]
+  from = "/"
+  to = "/en"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://pulsebeauty-studio.com/*"
+  to = "https://www.pulsebeauty-studio.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
