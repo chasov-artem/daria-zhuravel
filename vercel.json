@@ -2,18 +2,23 @@
   "redirects": [
     {
       "source": "/",
-      "destination": "/en",
+      "has": [
+        { "type": "host", "value": "pulsebeauty-studio.com" }
+      ],
+      "destination": "https://www.pulsebeauty-studio.com/en",
       "permanent": true
     },
     {
       "source": "/(.*)",
       "has": [
-        {
-          "type": "host",
-          "value": "pulsebeauty-studio.com"
-        }
+        { "type": "host", "value": "pulsebeauty-studio.com" }
       ],
       "destination": "https://www.pulsebeauty-studio.com/$1",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "destination": "/en",
       "permanent": true
     }
   ],
