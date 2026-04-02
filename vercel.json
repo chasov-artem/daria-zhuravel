@@ -15,11 +15,6 @@
       ],
       "destination": "https://www.pulsebeauty-studio.com/$1",
       "permanent": true
-    },
-    {
-      "source": "/",
-      "destination": "/en",
-      "permanent": true
     }
   ],
   "rewrites": [

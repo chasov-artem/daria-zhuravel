@@ -1,5 +1,6 @@
 import { lazy, Suspense } from 'react'
 import { Navigate, Route, Routes } from 'react-router-dom'
+import HomePage from './pages/HomePage'
 import LanguageRoute from './routes/LanguageRoute'
 
 const FaqPage = lazy(() => import('./pages/FaqPage'))
@@ -19,6 +20,7 @@ function App() {
   return (
     <Suspense fallback={<PageFallback />}>
       <Routes>
+        <Route path="/" element={<HomePage />} />
         <Route path="/:lang" element={<LanguageRoute />} />
         <Route path="/:lang/faq" element={<FaqPage />} />
         <Route path="/:lang/gallery" element={<GalleryPage />} />

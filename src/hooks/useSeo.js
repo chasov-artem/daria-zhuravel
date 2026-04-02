@@ -43,7 +43,8 @@ export function useSeo({ title, description, lang, image }) {
   useEffect(() => {
     const pageTitle = title || DEFAULT_TITLE
     const pageDescription = description || DEFAULT_DESCRIPTION
-    const canonicalPath = location.pathname || '/en'
+    const rawPath = location.pathname || '/en'
+    const canonicalPath = rawPath === '/' ? '/en' : rawPath
     const pageUrl = getAbsoluteUrl(canonicalPath)
     const pageImage = image ? getAbsoluteUrl(image) : DEFAULT_IMAGE
 
