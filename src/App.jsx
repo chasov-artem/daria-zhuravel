@@ -20,7 +20,7 @@ function App() {
   return (
     <Suspense fallback={<PageFallback />}>
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route path="/" element={<Navigate to="/en" replace />} />
         <Route path="/:lang" element={<LanguageRoute />} />
         <Route path="/:lang/faq" element={<FaqPage />} />
         <Route path="/:lang/gallery" element={<GalleryPage />} />
