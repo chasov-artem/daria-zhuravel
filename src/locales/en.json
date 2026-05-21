@@ -11,7 +11,7 @@
     "termsTitle": "Terms of Use | PulseBeauty Studio",
     "termsDescription": "Terms of use for PulseBeauty Studio website and booking services."
   },
-  "bookNow": "Book now",
+  "bookNow": "Book Appointment",
   "languageLabel": "Language",
   "studioName": "PulseBeauty Studio",
   "nav": {
@@ -29,10 +29,10 @@
     "contact": "Contact"
   },
   "hero": {
-    "title": "Electrolysis by Daria Zhuravel",
-    "titleLineOne": "Electrolysis by",
-    "titleLineTwo": "Daria Zhuravel",
-    "subtitle": "Expert hair removal with care"
+    "title": "Permanent Hair Removal in Auckland by Daria Zhuravel",
+    "titleLineOne": "Permanent Hair Removal in Auckland",
+    "titleLineTwo": "by Daria Zhuravel",
+    "subtitle": "Safe. Precise. Results that last forever."
   },
   "electrolysisInfo": {
     "title": "What Is Electrolysis",
