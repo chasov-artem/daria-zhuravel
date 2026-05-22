@@ -59,7 +59,7 @@ npm run preview
 |------|-------------|
 | `biglogo.PNG` | Логотип у header і hero |
 | `studio.png` | Назва студії в header |
-| `daria-logo.PNG` | Favicon (index.html) |
+| `daria-logo.PNG` | Favicon («фавікон» — іконка сайту для вкладки й Google); квадратне PNG 192×192 або 512×512; підключено в `index.html` |
 | `Diploma21century.png` | Сертифікат |
 | `certificate.png` | Сертифікат |
 | `certificate1.png` … `certificate4.png` | Сертифікати |
