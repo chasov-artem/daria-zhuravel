@@ -7,6 +7,7 @@
     <lastmod>2026-03-02</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.pulsebeauty-studio.com/en"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://www.pulsebeauty-studio.com/ru"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pulsebeauty-studio.com/en"/>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -16,6 +17,7 @@
     <lastmod>2026-03-02</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.pulsebeauty-studio.com/en"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://www.pulsebeauty-studio.com/ru"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pulsebeauty-studio.com/en"/>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -23,12 +25,18 @@
   <url>
     <loc>https://www.pulsebeauty-studio.com/en/faq</loc>
     <lastmod>2026-03-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.pulsebeauty-studio.com/en/faq"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.pulsebeauty-studio.com/ru/faq"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pulsebeauty-studio.com/en/faq"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.pulsebeauty-studio.com/ru/faq</loc>
     <lastmod>2026-03-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.pulsebeauty-studio.com/en/faq"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.pulsebeauty-studio.com/ru/faq"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pulsebeauty-studio.com/en/faq"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -36,12 +44,18 @@
   <url>
     <loc>https://www.pulsebeauty-studio.com/en/gallery</loc>
     <lastmod>2026-03-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.pulsebeauty-studio.com/en/gallery"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.pulsebeauty-studio.com/ru/gallery"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pulsebeauty-studio.com/en/gallery"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.pulsebeauty-studio.com/ru/gallery</loc>
     <lastmod>2026-03-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.pulsebeauty-studio.com/en/gallery"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.pulsebeauty-studio.com/ru/gallery"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pulsebeauty-studio.com/en/gallery"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -49,12 +63,18 @@
   <url>
     <loc>https://www.pulsebeauty-studio.com/en/privacy</loc>
     <lastmod>2026-03-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.pulsebeauty-studio.com/en/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.pulsebeauty-studio.com/ru/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pulsebeauty-studio.com/en/privacy"/>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.pulsebeauty-studio.com/ru/privacy</loc>
     <lastmod>2026-03-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.pulsebeauty-studio.com/en/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.pulsebeauty-studio.com/ru/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pulsebeauty-studio.com/en/privacy"/>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -62,12 +82,18 @@
   <url>
     <loc>https://www.pulsebeauty-studio.com/en/terms</loc>
     <lastmod>2026-03-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.pulsebeauty-studio.com/en/terms"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.pulsebeauty-studio.com/ru/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pulsebeauty-studio.com/en/terms"/>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.pulsebeauty-studio.com/ru/terms</loc>
     <lastmod>2026-03-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.pulsebeauty-studio.com/en/terms"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.pulsebeauty-studio.com/ru/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pulsebeauty-studio.com/en/terms"/>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>

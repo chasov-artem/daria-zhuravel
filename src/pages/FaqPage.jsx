@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { Navigate, useNavigate, useParams } from 'react-router-dom'
 import Layout from '../components/Layout'
 import { useLanguage } from '../context/useLanguage'
@@ -11,7 +11,7 @@ function FaqPage() {
   const isSupportedLanguage = supportedLanguages.includes(lang)
   const [openIndex, setOpenIndex] = useState(0)
   const pageItems = t('faqPage.items')
-  const faqItems = Array.isArray(pageItems) ? pageItems : []
+  const faqItems = useMemo(() => (Array.isArray(pageItems) ? pageItems : []), [pageItems])
 
   useEffect(() => {
     if (isSupportedLanguage) {
