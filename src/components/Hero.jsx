@@ -8,7 +8,6 @@ const MotionDiv = motion.div;
 const MotionH1 = motion.h1;
 const MotionP = motion.p;
 const MotionSpan = motion.span;
-const MotionImg = motion.img;
 
 function Hero() {
   const { t } = useLanguage();
@@ -45,16 +44,16 @@ function Hero() {
       initial={{ opacity: 0, y: 12 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.85, ease: [0.22, 1, 0.36, 1] }}
-      className="relative min-h-[420px] overflow-hidden bg-cover bg-center scroll-mt-28 md:min-h-[520px]"
-      style={{ backgroundImage: "url('/hero.webp')" }}
+      className="relative flex min-h-[540px] flex-col justify-end overflow-hidden bg-cover bg-no-repeat scroll-mt-28 bg-position-[center_18%] md:min-h-screen md:justify-center md:bg-position-[22%_center]"
+      style={{ backgroundImage: "url('/hero%20daria.webp')" }}
       aria-label="Electrolysis specialist portrait"
       role="img"
     >
-      <div className="pointer-events-none absolute inset-0 bg-[#f5f0e8]/70" />
+      <div className="pointer-events-none absolute inset-0 bg-linear-to-t from-[#f5f0e8]/78 via-[#f5f0e8]/18 to-transparent md:bg-linear-to-l md:from-transparent md:via-[#f5f0e8]/12 md:to-[#f5f0e8]/68" />
 
-      <div className="relative z-10 mx-auto grid max-w-6xl grid-cols-1 gap-0 px-4 py-8 md:grid-cols-2 md:px-6 md:py-12">
+      <div className="relative z-10 mx-auto flex w-full max-w-6xl flex-1 items-end justify-end px-4 pb-8 pt-20 md:items-center md:px-6 md:py-14">
         <MotionDiv
-          className="order-2 flex flex-col items-center justify-center p-8 text-center md:order-1 md:items-start md:p-10 md:text-left"
+          className="flex max-w-md flex-col items-center p-2 text-center text-white md:max-w-xl md:items-end md:p-6 md:text-right"
           initial="hidden"
           animate="show"
           variants={{
@@ -81,7 +80,7 @@ function Hero() {
           </MotionH1>
 
           <MotionP
-            className="mb-3 min-h-8 text-base text-[#5b4737] md:text-lg"
+            className="mb-3 min-h-8 text-base md:text-lg"
             variants={{
               hidden: { opacity: 0, y: 10 },
               show: {
@@ -94,25 +93,26 @@ function Hero() {
             {visibleSubtitle}
             <MotionSpan
               aria-hidden="true"
-              className="ml-1 inline-block h-[1em] w-px bg-[#5b4737] align-[-0.12em]"
+              className="ml-1 inline-block h-[1em] w-px bg-white align-[-0.12em]"
               animate={{ opacity: [0, 1, 0] }}
               transition={{ duration: 0.9, repeat: Infinity }}
             />
           </MotionP>
 
           <MotionDiv
-            className="mx-auto mb-7 h-[2px] w-full max-w-[320px] overflow-hidden rounded-full bg-softBrown/20 md:mx-0"
+            className="mx-auto mb-7 h-[2px] w-full max-w-[320px] overflow-hidden rounded-full bg-white/30 md:mx-0 md:ml-auto"
             variants={{
-              hidden: { opacity: 0, scaleX: 0, transformOrigin: "left" },
+              hidden: { opacity: 0, scaleX: 0, transformOrigin: "center" },
               show: {
                 opacity: 1,
                 scaleX: 1,
+                transformOrigin: "center",
                 transition: { duration: 1.05, ease: [0.22, 1, 0.36, 1] },
               },
             }}
           >
             <MotionSpan
-              className="block h-full w-full bg-softBrown"
+              className="block h-full w-full bg-white"
               initial={{ x: "-100%" }}
               animate={{ x: "100%" }}
               transition={{ duration: 3.4, repeat: Infinity, ease: "linear" }}
@@ -140,35 +140,6 @@ function Hero() {
             </a>
           </MotionDiv>
         </MotionDiv>
-
-        <div className="order-1 mx-auto flex min-h-[300px] items-center justify-center md:order-2 md:mx-0 md:min-h-[500px] md:justify-start">
-          <MotionDiv
-            className="h-[300px] w-[180px] md:h-[500px] md:w-[280px]"
-            initial={{ opacity: 0, x: 28, scale: 0.94, rotate: -2 }}
-            animate={{
-              opacity: 1,
-              x: 0,
-              scale: 1,
-              rotate: 0,
-              transition: { duration: 0.9, ease: "easeOut", delay: 0.2 },
-            }}
-          >
-            <MotionImg
-              src="/biglogo.PNG"
-              alt="Daria Zhuravel logo"
-              className="h-full w-full object-contain object-center"
-              animate={{
-                y: [0, -5, 0],
-                scale: [1, 1.01, 1],
-              }}
-              transition={{
-                duration: 5.4,
-                ease: "easeInOut",
-                repeat: Infinity,
-              }}
-            />
-          </MotionDiv>
-        </div>
       </div>
     </MotionSection>
   );
