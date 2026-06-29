@@ -4,6 +4,7 @@ import FaqSection from "./FaqSection";
 import About from "./About";
 import Gallery from "./Gallery";
 import Certificates from "./Certificates";
+import WorkspacePhotos from "./WorkspacePhotos";
 import { motion } from "framer-motion";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
@@ -283,6 +284,9 @@ function Aftercare() {
             <p className="mb-4 text-base leading-relaxed text-[#5b4737]">
               {t("location.addressLineTwo")}
             </p>
+
+            <WorkspacePhotos />
+
             <div className="overflow-hidden rounded-card border border-softBrown/15 bg-white/70">
               <iframe
                 title={t("location.mapTitle")}

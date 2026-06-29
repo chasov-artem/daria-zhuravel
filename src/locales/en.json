@@ -398,6 +398,13 @@
   "title": "Location",
   "addressLineOne": "PulseBeauty Studio is a private home-based electrolysis studio located in East Auckland (Pakuranga area).\n\nThe treatment room is fully equipped to provide a professional, hygienic, and comfortable environment.",
   "addressLineTwo": "Visits are by appointment only.\nFull address details will be provided after booking confirmation and deposit.",
+  "workspaceTitle": "Treatment Room",
+  "workspacePhotos": [
+    { "image": "/w4.webp", "alt": "PulseBeauty Studio treatment room" },
+    { "image": "/w1.webp", "alt": "Professional electrolysis workspace" },
+    { "image": "/w2.webp", "alt": "Comfortable treatment room interior" },
+    { "image": "/w3.webp", "alt": "Hygiene-focused studio setup" }
+  ],
   "mapTitle": "Map to PulseBeauty Studio",
   "mapCaption": "Private home-based studio. Exact address provided after booking."
   },
