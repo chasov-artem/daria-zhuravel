@@ -53,7 +53,7 @@ function Hero() {
 
       <div className="relative z-10 mx-auto flex w-full max-w-6xl flex-1 items-end justify-end px-4 pb-8 pt-20 md:items-center md:px-6 md:py-14">
         <MotionDiv
-          className="flex max-w-md flex-col items-center p-2 text-center text-white md:max-w-xl md:items-end md:p-6 md:text-right"
+          className="flex max-w-md flex-col items-center p-2 text-center text-[#3e2e23] md:max-w-xl md:items-end md:p-6 md:text-right"
           initial="hidden"
           animate="show"
           variants={{
@@ -134,7 +134,7 @@ function Hero() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label={t("bookNow")}
-              className="inline-flex w-fit cursor-pointer rounded-lg border border-softBrown/50 bg-softBrown px-6 py-3 text-base font-semibold text-white transition hover:bg-softBrown/90 hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-softBrown/60 focus-visible:ring-offset-2"
+              className="inline-flex w-fit cursor-pointer rounded-lg border border-softBrown/50 bg-softBrown px-6 py-3 text-base font-semibold text-[#3e2e23] transition hover:bg-softBrown/90 hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-softBrown/60 focus-visible:ring-offset-2"
             >
               {t("bookNow")}
             </a>
