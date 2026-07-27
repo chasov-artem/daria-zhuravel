@@ -45,7 +45,7 @@ function Hero() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.85, ease: [0.22, 1, 0.36, 1] }}
       className="relative flex min-h-[540px] flex-col justify-end overflow-hidden bg-cover bg-no-repeat scroll-mt-28 bg-position-[center_18%] md:min-h-screen md:justify-center md:bg-position-[22%_center]"
-      style={{ backgroundImage: "url('/hero%20daria.webp')" }}
+      style={{ backgroundImage: "url('/hero-daria.webp')" }}
       aria-label="Electrolysis specialist portrait"
       role="img"
     >
