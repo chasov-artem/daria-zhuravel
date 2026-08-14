@@ -88,6 +88,42 @@
       {
         "image": "/gallery9.webp",
         "alt": "Work 9"
+      },
+      {
+        "image": "/collage_1.jpeg",
+        "alt": "Collage 1"
+      },
+      {
+        "image": "/collage_2.jpeg",
+        "alt": "Collage 2"
+      },
+      {
+        "image": "/collage_3.jpeg",
+        "alt": "Collage 3"
+      },
+      {
+        "image": "/collage_4.jpeg",
+        "alt": "Collage 4"
+      },
+      {
+        "image": "/collage_5.jpeg",
+        "alt": "Collage 5"
+      },
+      {
+        "image": "/collage_6.jpeg",
+        "alt": "Collage 6"
+      },
+      {
+        "image": "/collage_7.jpeg",
+        "alt": "Collage 7"
+      },
+      {
+        "image": "/collage_8.jpeg",
+        "alt": "Collage 8"
+      },
+      {
+        "image": "/collage_9.jpeg",
+        "alt": "Collage 9"
       }
     ]
   },

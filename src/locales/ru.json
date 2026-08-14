@@ -88,6 +88,42 @@
       {
         "image": "/gallery9.webp",
         "alt": "Работа 9"
+      },
+      {
+        "image": "/collage_1.jpeg",
+        "alt": "Коллаж 1"
+      },
+      {
+        "image": "/collage_2.jpeg",
+        "alt": "Коллаж 2"
+      },
+      {
+        "image": "/collage_3.jpeg",
+        "alt": "Коллаж 3"
+      },
+      {
+        "image": "/collage_4.jpeg",
+        "alt": "Коллаж 4"
+      },
+      {
+        "image": "/collage_5.jpeg",
+        "alt": "Коллаж 5"
+      },
+      {
+        "image": "/collage_6.jpeg",
+        "alt": "Коллаж 6"
+      },
+      {
+        "image": "/collage_7.jpeg",
+        "alt": "Коллаж 7"
+      },
+      {
+        "image": "/collage_8.jpeg",
+        "alt": "Коллаж 8"
+      },
+      {
+        "image": "/collage_9.jpeg",
+        "alt": "Коллаж 9"
       }
     ]
   },
